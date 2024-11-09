@@ -856,7 +856,7 @@ const DoughnutChart = () => {
                 {/* </div> */}
 
                 <div className='DoughCont' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    {
+                    {/* {
                         topProducts && topProducts.length === 0 ? (
                             <div style={{ color: 'red' }}>No data available</div>
                         ) : (
@@ -869,11 +869,29 @@ const DoughnutChart = () => {
                                     visible={true}
                                 />
                             ) : (
-                                // <Doughnut data={data} options={options} height={containerHeight} width={containerHeight} />
                                 <ApexChartD topProducts={topProducts} />
                             )
                         )
+                    } */}
+
+                    {
+                        topProducts && topProducts.length > 0 && !topProducts.some(item => item.GRP === null || item.QTY === null) ? (
+                            showReload ? (
+                                <RotatingLines
+                                    strokeColor="#107F6A"
+                                    strokeWidth="5"
+                                    animationDuration="0.75"
+                                    width="40"
+                                    visible={true}
+                                />
+                            ) : (
+                                <ApexChartD topProducts={topProducts} />
+                            )
+                        ) : (
+                            <div style={{ color: 'red' }}>No data available</div>
+                        )
                     }
+
                 </div>
             </div>
         </div>
