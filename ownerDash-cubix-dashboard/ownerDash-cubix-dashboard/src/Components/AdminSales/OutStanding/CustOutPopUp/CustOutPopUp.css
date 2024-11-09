@@ -1,0 +1,33 @@
+.cpHeadText {
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+.cpInpLeft {
+    width: 65%;
+}
+
+.cpInpRight {
+    width: 25%;
+}
+
+.cpPdfCont {
+    display: flex;
+    justify-content: start;
+}
+
+.cpPdfCont>div {
+    padding: 4px 8px;
+    background-color: #43A047;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cpPopTable table thead tr th {
+    font-size: 12px;
+}
+
+.cpPopTable table tbody tr td {
+    font-size: 14px;
+}

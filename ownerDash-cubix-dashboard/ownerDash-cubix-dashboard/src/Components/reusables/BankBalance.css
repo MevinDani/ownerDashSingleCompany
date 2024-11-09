@@ -1,0 +1,376 @@
+/* .card-hover {
+    height: 100%;
+} */
+
+/* #bankBWrap {
+    height: 100%;
+} */
+
+#bankBWrap {
+    position: relative;
+    /* height: 100vh; */
+    /* backdrop-filter: blur(20px); */
+    background: url('../../images/bank_balance_svg_file.svg') center/cover;
+    /* Replace 'your-image-url.jpg' with your image URL */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* z-index: -1; */
+}
+
+#bankBWrap::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    background: url('../../images/bank_balance_svg_file.svg') center/cover;
+    /* Replace 'your-image-url.jpg' with your image URL */
+    background-repeat: no-repeat;
+    background-size: 80%;
+    z-index: -1;
+}
+
+.card-text-four {
+    color: #7d681a;
+    font-size: 16px;
+}
+
+.wallet {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111C84;
+}
+
+.LineList {
+    /* margin-right: 10px; */
+    color: #7F7F7F;
+}
+
+.LineList:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.cashBalance {
+    margin-left: 5px;
+    /* color: #7D681A; */
+    font-size: 28px;
+}
+
+#cashBalanceText {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#cashTable {
+    font-size: 18px;
+}
+
+#cashTds {
+    font-size: 16px;
+}
+
+.BankImgCont {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.BankImg {
+    width: 35px;
+    height: 35px;
+}
+
+#cashTable {
+    font-size: 18px;
+}
+
+#cashTable>thead>tr>th {
+    background-color: #f3f3f3;
+    background-color: white;
+}
+
+#cashTds {
+    font-size: 16px;
+    background-color: #f3f3f3;
+    border: 1px solid white;
+}
+
+.MuiBox-root.css-2jf43d {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: white;
+}
+
+/* .card-hover {
+    transition: 0.5s
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+} */
+
+@media screen and (max-width:1700px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1540px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+
+@media screen and (max-width:1340px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1275px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 18px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 80%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: -5px;
+        width: 96%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 86%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 38px;
+        left: -5px;
+        width: 96%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 86%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 960px) {
+    .card-dashboard {
+        /* Adjust styles for the card at smaller screen sizes */
+        padding: 1rem;
+    }
+
+    .wallet {
+        /* Adjust styles for the wallet icon at smaller screen sizes */
+        font-size: 24px;
+    }
+
+    #cashBalanceText {
+        /* Adjust styles for the cash balance text at smaller screen sizes */
+        font-size: 18px;
+    }
+
+    .card-subtitle-four {
+        /* Adjust styles for the card subtitle at smaller screen sizes */
+        font-size: 14px;
+    }
+
+    .cashBalance {
+        /* Adjust styles for the cash balance value at smaller screen sizes */
+        font-size: 24px;
+    }
+
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: 0;
+        width: 100%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 97%;
+        z-index: -1;
+    }
+}
+
+
+/* Media query for screens 480px and below */
+@media screen and (max-width: 480px) {
+    #cashTable {
+        font-size: 14px;
+    }
+
+    #cashTds {
+        font-size: 12px;
+    }
+
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: 0;
+        width: 100%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 97%;
+        z-index: -1;
+    }
+
+    /* Add more styles as needed for smaller screens */
+}
+
+@media screen and (max-width: 465px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 34px;
+        left: 0;
+        width: 100%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 97%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 34px;
+        left: 0;
+        width: 100%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 97%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    #bankBWrap::before {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: 0;
+        width: 100%;
+        height: 69%;
+        background: url('../../images/bank_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 97%;
+        z-index: -1;
+    }
+}

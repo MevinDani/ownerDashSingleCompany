@@ -1,0 +1,254 @@
+.CBDwrapper {
+    background-color: rgb(138, 232, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CBDCont {
+    width: 40%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+}
+
+.CBDMAINDROP {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.CBDDropCont {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.CBDDropItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 38%;
+    padding-right: 36px;
+    padding-top: 8px;
+}
+
+.CBDDropItems .CBDDText {
+    font-size: 26px;
+    color: #7F7F7F;
+    border: none;
+
+}
+
+.CBDDropDown {
+    font-size: 20px;
+    color: #7F7F7F;
+    text-align: end;
+    width: 30%;
+}
+
+.CBDDropDownCont {
+    padding-left: 30px;
+}
+
+.CBDDropDownText {
+    border-bottom: 1px solid #7F7F7F;
+}
+
+.CBDDropDownText:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.CBDDropItems .fa-solid {
+    padding-bottom: 12px;
+}
+
+.CBDDateCont {
+    display: flex;
+    justify-content: flex-start;
+    height: 80%;
+}
+
+.CBDItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 60%;
+    /* padding-left: 10%; */
+}
+
+.CBDItems .CBDText {
+    font-size: 32px;
+    color: #7D681A;
+}
+
+.CBDItems .CBDNum {
+    font-size: 38px;
+    font-weight: bold;
+    color: #7D681A;
+}
+
+.CBDButton {
+    padding: 15px 42px;
+    background-color: #7D681A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.CBDButton:hover {
+    background-color: #bd9b20;
+    /* Darker blue color on hover */
+}
+
+.CBDMAINDROP {
+    position: relative;
+}
+
+.CBDDropDown {
+    position: absolute;
+    top: 100%;
+    left: 100;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    width: 30%;
+    background-color: white;
+    /* Add a background color to dropdown for visibility */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for separation */
+}
+
+@media (max-width:1174px) {
+    .CBDDropCont {
+        width: 120%;
+    }
+}
+
+@media (max-width:1157px) {
+    .CBDDropDown {
+        width: 45%;
+    }
+}
+
+@media (max-width:1036px) {
+    /* .CBDDropDown {
+        width: 50%;
+    } */
+
+    .CBDDropItems .CBDDText {
+        font-size: 22px;
+        /* Adjust font size for tablets */
+    }
+}
+
+/* @media (max-width:996px) {
+    .CBDItems {
+        width: 80%;
+    }
+} */
+
+/* For TableCBD (e.g., iPad) */
+@media (max-width: 768px) {
+    .CBDCont {
+        width: 100%;
+        /* Adjust width for tableCBD */
+        height: auto;
+        /* Adjust height if needed */
+    }
+
+    .CBDDropItems {
+        width: 50%;
+        /* Adjust width for tableCBD */
+        padding-right: 20px;
+        /* Adjust padding if needed */
+    }
+
+    .CBDDropItems .CBDDText {
+        font-size: 22px;
+        /* Adjust font size for tableCBD */
+    }
+
+    .CBDItems .CBDText {
+        font-size: 28px;
+        /* Adjust font size for tableCBD */
+    }
+
+    .CBDItems .CBDNum {
+        font-size: 32px;
+        /* Adjust font size for tableCBD */
+    }
+
+    .CBDButton {
+        font-size: 20px;
+        /* Adjust font size for tableCBD */
+    }
+
+    .CBDDropDownText {
+        font-size: 18px;
+    }
+}
+
+/* For Mobile Devices (e.g., iPhone) */
+@media (max-width: 480px) {
+    .CBDCont {
+        width: 80%;
+        /* Adjust width for mobile devices */
+        height: auto;
+        padding: 22px;
+        /* Allow height to be flexible for mobile devices */
+    }
+
+    .CBDDropItems {
+        width: 100%;
+        /* Adjust width for mobile devices */
+        padding-right: 22px;
+        /* Adjust padding if needed */
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .CBDDropItems .CBDDText {
+        font-size: 18px;
+        /* Adjust font size for mobile devices */
+    }
+
+    .CBDDropItems .fa-solid {
+        margin-left: 8px;
+    }
+
+    .CBDItems {
+        width: 100%;
+        /* Adjust width for mobile devices */
+        padding-left: 2%;
+        /* Adjust padding if needed */
+    }
+
+    .CBDItems .CBDText {
+        font-size: 24px;
+        /* Adjust font size for mobile devices */
+    }
+
+    .CBDItems .CBDNum {
+        font-size: 28px;
+        /* Adjust font size for mobile devices */
+    }
+
+    .CBDButton {
+        font-size: 18px;
+        /* Adjust font size for mobile devices */
+        margin-top: 8px;
+        /* Adjust margin-top for mobile devices */
+    }
+
+    .CBDDropDownText {
+        font-size: 14px;
+    }
+}
+

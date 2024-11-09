@@ -1,0 +1,79 @@
+.IPABody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.IPATopBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.IPATopBox>div {
+    /* width: 200px; */
+    padding: 12px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #E7EBEE;
+    background-color: #c4ffe2;
+}
+
+.IPAOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.IPAFIFOBOX {
+    display: flex;
+    justify-content: space-between;
+}
+
+.IPAFIFOBOX>div {
+    width: 30%;
+}
+
+.IPARadios {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+@media (max-width:980px) {
+
+    .IPATopBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:764px) {
+    .IPAFIFOBOX {
+        flex-direction: column;
+        /* align-items: center; */
+        margin-top: 12px;
+    }
+
+    .IPAFIFOBOX>div {
+        width: 90%;
+        margin: 4px 0px;
+    }
+
+    .IPARadios {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:506px) {
+    .IPAOptions {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:490px) {}

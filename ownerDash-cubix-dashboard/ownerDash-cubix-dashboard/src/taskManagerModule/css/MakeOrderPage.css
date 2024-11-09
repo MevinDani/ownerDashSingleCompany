@@ -1,0 +1,590 @@
+.MakeOrderPage-root-container {
+    overflow: hidden;
+    background-color: #296EB4;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.MakeOrderPage-layer-1 img {
+    right: -10px;
+    top: -81px;
+    position: relative;
+    height: 100vh;
+}
+
+.MakeOrderPage-layer-2 {
+    background-color: rgba(41, 110, 180, 0.62);
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.MakeOrderPage-layer-2 h4 {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.MakeOrderPage-layer-2-underline {
+    width: 40px;
+    height: 5px;
+    background-color: #FDB833;
+    margin-left: 5%;
+}
+
+.MakeOrderPage-search-box {
+    background-color: #F8F8F8;
+    margin: 20px 5%;
+}
+
+.MakeOrderPage-search-input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.MakeOrderPage-search-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ABA4A4;
+    max-width: 900px;
+    margin: 25px auto 15px auto;
+    width: 90%;
+}
+
+.MakeOrderPage-search-box div {
+    margin: 0px 5px;
+}
+
+.MakeOrderPage-layer-2-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 5%;
+}
+
+.MakeOrderPage-layer-2-top button {
+    border: none;
+    font-size: 14px;
+    background-color: #FF4949;
+    color: #ffffff;
+}
+
+.MakeOrderPage-result-container {
+    background-color: #ffffff;
+    padding: 20px 20px 100px 20px;
+    max-width: 900px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.MakeOrderPage-result-container-label {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MakeOrderPage-result-container-name-value,
+.MakeOrderPage-result-container-address-value {
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.MakeOrderPage-table-container {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.MakeOrderPage-list-row-top-item-name {
+    width: 100%;
+    border: none;
+    border: 1px solid #d5d5d5;
+    outline: none;
+    padding: 6px;
+    box-shadow: inset 0 1px 6px rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+}
+
+.MakeOrderPage-list-row-bottom-item-qty {
+    width: 100%;
+    border: none;
+    border: 1px solid #d5d5d5;
+    outline: none;
+
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 6px rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+}
+
+.MakeOrderPage-list-row-bottom-item-qty-span {
+    width: 49%;
+}
+.MakeOrderPage-list-row-bottom-section-label-unit-price{
+    width: 50%;
+    margin-left: 1%;
+}
+
+.MakeOrderPage-list-container {
+    margin-top: 10px;
+    background-color: #bdb76b;
+    padding: 5px 5px 0px 5px;
+}
+
+.MakeOrderPage-list-row-bottom-section {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.MakeOrderPage-list-row-bottom-section-label-unit-price,
+.MakeOrderPage-list-row-bottom-section-label-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.MakeOrderPage-list-row-bottom-section-delete {
+    width: 30px
+}
+
+
+
+.MakeOrderPage-result-container-label button {
+    display: flex;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4px 10px;
+    align-items: center;
+}
+
+.MakeOrderPage-list-row {
+    padding: 13px 4px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 5px 3px 6px rgb(0 0 0 / 12%);
+}
+
+.MakeOrderPage-add-item-button {
+    background-color: #256e2a;
+    color: #ffffff;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.MakeOrderPage-search-box-and-list-container {
+    position: relative;
+}
+
+.MakeOrderPage-search-list-container-top {
+    background-color: #F8F8F8;
+    height: 400px;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 4;
+    box-shadow: 2px 20px 14px 5px #585857;
+    border: 1px solid #d5d5d5;
+}
+
+.MakeOrder-CustomerEmpty-Popup-root-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MakeOrder-CustomerEmpty-Popup-root-container-child {
+    padding: 20px;
+    width: 50%;
+}
+
+.MakeOrder-CustomerEmpty-Popup-child-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.MakeOrder-CustomerEmpty-Popup-child-button-container button {
+    border: none;
+    outline: none;
+    background-color: #7c786f;
+    padding: 4px 20px;
+    color: #ffffff;
+}
+
+
+.DeleteFromLocalStorage-Popup-root-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DeleteFromLocalStorage-Popup-root-container-child {
+    padding: 20px;
+    width: 80%;
+}
+
+.DeleteFromLocalStorage-Popup-child-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DeleteFromLocalStorage-Popup-child-button-container button {
+    border: none;
+    outline: none;
+    background-color: #7c786f;
+    padding: 4px 20px;
+    color: #ffffff;
+}
+
+.DeleteFromLocalStorage-delete-data {
+    background-color: #ff0000 !important;
+    color: #ffffff;
+}
+
+.ConfirmSalesOrderPopup-sales-order-list-item {
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.ConfirmSalesOrderPopup-sales-order-list-item-first-panel {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.ConfirmSalesOrderPopup-sales-order-list-item-first-panel .left-child {
+    display: flex;
+}
+
+.ConfirmSalesOrderPopup-sales-order-list-item {
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.ConfirmSalesOrderPopup-item-name-qty-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.child-1,
+.child-2>label,
+.child-3 {
+    font-weight: 600;
+    color: #000000;
+}
+
+.ConfirmSalesOrderPopup-tax-total-container {
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.ConfirmSalesOrderPopup-subotal-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.MakeOrder-heading-label {
+    color: darkgoldenrod;
+    font-weight: 600;
+}
+
+.Make-order-list-values {
+    font-weight: 600;
+}
+
+.MakeOrderPage-searching-for-company-div {
+    padding: 10px;
+    background-color: #FDB833;
+    color: #ffffff;
+    width: 100%;
+    top: 0px;
+}
+
+.MakeOrderPage-cannot-take-order-div {
+    background-color: #e73b1d;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.MakeOrderPage-list-row-item-code {
+    background-color: #ffd700;
+    padding: 2px 12px;
+}
+
+.MakeOrderPage-total-container {
+    background-color: #bdb76b;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.MakeOrderPage-total-container-label-value {
+    color: #000000;
+    font-weight: 500;
+}
+
+.CheckStockPage_SearchResultListContainer-table thead tr th {
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.MakeOrder-errorMessageContainer {
+    background-color: #ffffff;
+    border: 2px solid red;
+    color: red;
+    position: absolute;
+    width: 100%;
+}
+
+.MakeOrder-qty-unit-price-container {
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+}
+
+.MakeOrderPage-list-row-bottom-section-delete {
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.MakeOrderPage-list-row-bottom-section-label-total {
+    padding: 0px 10px;
+}
+
+.MakeOrderPage-Order-Remake-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.MakeOrder-item-remark-and-barcode-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.MakeOrder-OrderRemark-input,
+.MakeOrder-remark-and-barcode-input{
+    
+    border: 1px solid #d5d5d5;
+    outline: none;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 6px rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+}
+
+.MakeOrder-total-of-single-item-container {
+    margin-top: 10px;
+    background-color: #edf5ed;
+    display: flex;
+    justify-content: center;
+}
+.MakeOrderPage-list-row-bottom-section-label-total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MakeOrderPageListContainer-barcode-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.MakeOrderPageListContainer-barcode-label{
+    color: #139639;
+    font-weight: 600;
+}
+
+.MakeOrderPageListContainer-barcode-value{
+    font-size: 16px;
+}
+
+.MakeOrderPageListContainer-no-barcode-error-color {
+    color: #a52a2a;
+}
+
+.MakeOrder-calling-last-customer-price-root-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MakeOrder-calling-last-customer-price-inner-container{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.MakeOrderPage-last-sell-price-label{
+    color: #464646;
+    font-weight: 400;
+}
+
+.MakeOrderPage-single-item-cost-chip {
+    background-color: #b9f0b9;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #000000;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.MakeOrderPage-single-item-cost-chip-cost-details {
+    background-color: #b9b9f0;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #000000;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.MakeOrderPage-quotation-footer-input{
+    border: 1px solid #d5d5d5;
+    outline: none;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 6px rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+}
+.MakeOrder-quotation-content{
+    background-color: #256e2a;
+    color: #ffffff;
+}
+
+.MakeOrder-enter-as-cash-customer {
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    margin: 0px auto;
+    display: block;
+}
+
+.MakeOrder-enter-as-cash-customer-or{
+    background-color: #296EB4;
+    color: #ffffff;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.MakeOrder-continue-button {
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px auto;
+    display: block;
+}
+
+
+@media (max-width: 575.98px) {
+    .MakeOrderPage-total-container {
+        font-size: 18px;
+    }
+
+    .MakeOrderPage-result-container {
+        padding: 20px 10px 40px 10px;
+        margin-bottom: 100px;
+    }
+
+    .MakeOrderPage-list-row-bottom-section-delete {
+        width: 25px;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+    .MakeOrder-CustomerEmpty-Popup-root-container-child {
+        padding: 20px;
+        width: 75%;
+    }
+
+    .MakeOrderPage-list-row-bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MakeOrder-qty-unit-price-container {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .MakeOrder-total-of-single-item-container {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #edf5ed;
+    }
+
+    .MakeOrderPage-list-row-bottom-section-label-unit-price {
+        width: 50%;
+    }
+
+    .MakeOrderPage-list-row-bottom-item-qty-span {
+        width: 40%;
+    }
+
+    .MakeOrderPage-list-row-bottom-section-label-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MakeOrderPage-single-item-total-value {
+        margin-left: 10px;
+    }
+
+    .MakeOrderPageListContainer-barcode-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MakeOrderPageListContainer-barcode-image {
+        height: 22px;
+    }
+
+    .MakeOrder-calling-last-customer-price-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

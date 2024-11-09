@@ -1,0 +1,156 @@
+.CashedWrapper {
+    /* background-color: rgb(138, 232, 255);
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D5E8F5; */
+}
+
+.CashedContWrapper {
+    width: 100%;
+    display: flex;
+    /* background-color: #D5E8F5; */
+}
+
+.CashedCont {
+    /* background-color: #fff; */
+    width: 100%;
+    display: flex;
+    padding: 13px;
+    justify-content: space-evenly;
+}
+
+.CashedCont h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.CashedCont h3 {
+    color: grey;
+}
+
+.CashedCont span {
+    color: black;
+}
+
+.MinusCont,
+.PlusCont,
+.EqualsCont {
+    display: flex;
+    align-items: center;
+}
+
+.Minus,
+.Plus,
+.Equals {
+    padding: 15px 0px;
+    /* font-size: 26px; */
+    font-weight: bold;
+}
+
+.AmountBox {
+    /* border: 1.5px solid #7C6716; */
+    padding: 4px 4px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111C84;
+}
+
+.CashedCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+#CashDivs h3 {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(215, 215, 215);
+}
+
+#CashDivs .AmountBox {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media (max-width:848px) {
+    .CashedCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+    }
+}
+
+@media (max-width:825px) {
+    .CashedContWrapper {
+        width: 50%;
+    }
+
+    .Minus,
+    .Plus,
+    .Equals {
+        padding-top: 0px;
+        /* font-size: 26px; */
+        font-weight: bold;
+    }
+
+    .CashedCont h3,
+    .AmountBox,
+    .Minus,
+    .Plus,
+    .Equals {
+        font-size: 18px;
+    }
+
+    #CashDivs {
+        height: 20%;
+    }
+}
+
+/* Media query for screens below 760px */
+@media (max-width: 760px) {
+    .CashedCont {
+        flex-direction: column;
+        /* Stack elements vertically on smaller screens */
+    }
+
+    #CashDivs {
+        /* Adjust styles for each CashDivs element on smaller screens */
+        margin-bottom: 10px;
+        /* Add some space between elements */
+    }
+
+    #CashDivs h3 {
+        font-size: 14px;
+    }
+
+    .AmountBox {
+        /* Adjust styles for the AmountBox element on smaller screens */
+        font-size: 16px;
+        /* Decrease font size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #CashDivs h3 {
+        font-size: 16px;
+    }
+
+    .AmountBox {
+        /* Adjust styles for the AmountBox element on smaller screens */
+        font-size: 16px;
+        /* Decrease font size */
+    }
+
+    .CashedCont {
+        width: 100%;
+        padding: 0;
+    }
+}

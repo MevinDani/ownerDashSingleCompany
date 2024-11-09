@@ -1,0 +1,72 @@
+import React, { useContext, useEffect, useState } from "react";
+import "../css/Sidebar.css";
+import { useNavigate } from "react-router-dom";
+import "../css/CommonStyle.css";
+
+function AdminSideBar(props) {
+
+    const { clickedOnhamburger } = props;
+    const [showLogoutPopup, setShowLogoutPopup] = useState(false)
+    const [nameOfUser, setNameOfUser] = useState("");
+
+    const navigate = useNavigate()
+
+    const logoutAction = (e) => {
+        localStorage.setItem("cubix_textile_isLoggedIn", JSON.stringify(false));
+        localStorage.setItem("cubix_textile_staffName", "");
+        navigate('/')
+    }
+
+    const clickedOnRightSideMenu = (path) => {
+        navigate(`/${path}`)
+    }
+
+    useEffect(() => {
+        if (localStorage.getItem("cubix_textile_staffName")) {
+            setNameOfUser(localStorage.getItem("cubix_textile_staffName").trim());
+        }
+    }, [])
+
+
+
+    return (
+        <div className="Sidebar-root-container" >
+
+            <div onClick={clickedOnhamburger} className="Sidebar-left-container">
+
+            </div>
+
+            <div className="Sidebar-right-container">
+                <h4 className="m-4">{nameOfUser}</h4>
+
+                <div>
+                    <label className="p-2 ms-4" onClick={() => clickedOnRightSideMenu("admin_completed_tasks")}>Completed Task</label>
+                </div>
+                <div>
+                    <label className="p-2 ms-4" onClick={() => clickedOnRightSideMenu("admin_current_task_of_staff")}>Current task of Staff</label>
+                </div>
+
+                <button onClick={() => { setShowLogoutPopup(true) }} className="btn btn-light ms-4 mt-4">Logout</button>
+            </div>
+
+
+            {
+                showLogoutPopup &&
+                <div className="Logout-popup-root-container">
+
+                    <div className="Logout-popup-inner-container">
+                        <h5>Logout</h5>
+                        <p>Are you sure?</p>
+                        <div className="Logout-cta-container">
+                            <button onClick={() => setShowLogoutPopup(false)} className="btn btn-light me-4">Cancel</button>
+                            <button onClick={logoutAction} className="btn btn-primary">Logout</button>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </div>
+    )
+}
+
+export default AdminSideBar;

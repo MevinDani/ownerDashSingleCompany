@@ -1,0 +1,16 @@
+.LeaveSummaryWrapper {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 100%;
+}
+
+.LeaveSummaryCont {
+    height: 244px;
+    /* width: 280px; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+}

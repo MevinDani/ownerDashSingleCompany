@@ -1,0 +1,280 @@
+.DashSideBar {
+    height: 380vh;
+    width: 12%;
+    display: flex;
+    position: relative;
+    height: calc(100vh - 60px) !important;
+}
+
+.DashSideBar>div>div {
+    cursor: pointer;
+    padding: 12px 4px;
+    font-size: 14px;
+    z-index: 5;
+}
+
+.DashSideBar .selectedItem {
+    background-color: #d5e6ff;
+    display: flex;
+    align-items: center;
+}
+
+.DashSideBar>div>div:hover {
+    /* background-color: #eaf3ff; */
+    border: 1px solid rgb(169, 169, 255);
+}
+
+.DashSideBar .card {
+    margin: 0;
+}
+
+/* .DashSideBar .list-group {
+    height: 180px;
+    overflow-y: scroll;
+} */
+
+.grpMenu {
+    position: relative;
+}
+
+.grpMenu .list-group {
+    height: max-content;
+    overflow: hidden;
+}
+
+.sideGrpPop {
+    position: absolute;
+    left: 11%;
+    top: 200px;
+    z-index: 1;
+    height: fit-content !important;
+    max-height: 250px;
+    width: 250px;
+    padding: 2px !important;
+}
+
+.GrpMenuList {
+    position: absolute;
+    left: 30%;
+    top: 200px;
+    z-index: 1;
+    height: fit-content !important;
+    max-height: 250px;
+    width: 250px;
+    padding: 2px !important;
+}
+
+.grpMenuMob {
+    display: none;
+}
+
+/* .mobileListNest {
+    display: none;
+} */
+
+.listShow {
+    display: block;
+}
+
+.listNotShow {
+    display: none;
+}
+
+.list-group-item:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.DashSideLeftItems {
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    height: calc(100vh - 80px) !important;
+    overflow-y: scroll;
+}
+
+.toggleSideGrpMenu {
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 100%;
+    /* Position it to the right */
+    top: 0;
+    background-color: white;
+    /* Align it with the top of DashSideLeftItems */
+}
+
+
+.toggleSideGrpMenu>.list-group {
+    white-space: nowrap;
+}
+
+.toggleSideNestList {
+    height: 100%;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    left: 230%;
+    /* Position it to the right */
+    top: 0;
+    background-color: white;
+    /* Align it with the top of DashSideLeftItems */
+}
+
+
+.toggleSideNestList>.list-group {
+    white-space: nowrap;
+}
+
+.nestList {
+    width: 100%;
+    max-height: 180px;
+    overflow-y: scroll;
+    text-align: right;
+}
+
+.nestList>li {
+    background-color: #c0ddc4;
+}
+
+.toggleSideGrpMenu {
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+
+.DashSideCollpase {
+
+    height: 40px;
+    padding: 0px 4px;
+    position: absolute;
+    right: -30px;
+}
+
+.DashSideLeftItems>div>img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.DashSideCollapseArrow {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    box-shadow: -1px 1px 1px #d1d1d1;
+}
+
+
+
+.DashSideCollpase>div>img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.DashSideItem {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:900px) {
+    /* .grpMenu {
+        display: none;
+    } */
+
+    .DashSideCollpase {
+        display: none;
+    }
+
+    .grpMenu {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 100px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+    }
+
+    .grpMenu .list-group {
+        height: 180px;
+        overflow-y: scroll;
+    }
+
+    .sideGrpPop {
+        position: absolute;
+        left: 268px;
+        top: 100px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+    }
+
+    .GrpMenuList {
+        position: absolute;
+        left: 520px;
+        top: 100px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+    }
+
+    .toggleSideNestList {
+        left: 690%;
+    }
+
+}
+
+@media (max-width:782px) {
+
+    .GrpMenuList {
+        position: absolute;
+        left: 25px;
+        top: 278px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+
+    }
+}
+
+@media (max-width:515px) {
+    .sideGrpPop {
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+    }
+}
+
+@media (max-width:450px) {
+    .sideGrpPop {
+        position: absolute;
+        left: 25px;
+        top: 278px;
+        z-index: 1;
+        height: fit-content !important;
+        max-height: 250px;
+        width: 250px;
+    }
+
+    .GrpMenuList {
+        display: none;
+    }
+
+}

@@ -1,0 +1,32 @@
+
+.RadioBoxComponent-root-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.RadioBoxComponent-root-container label {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.RadioBoxComponent-root-container label:hover {
+    cursor: pointer;
+}
+
+.RadioBoxComponent-root-container label img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.RadioBoxComponent-dropdown-selected  {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.RadioBoxComponent-dropdown-selected img {
+    width: 20px;margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+.AgeingBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AgeBoxes {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.AgeNum {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.AgeSpace {
+    background-color: gray;
+    height: 20px;
+}
+
+.AgeTopOptions {
+    display: flex;
+    flex-direction: column;
+}

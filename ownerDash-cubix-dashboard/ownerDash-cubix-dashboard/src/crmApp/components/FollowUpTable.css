@@ -1,0 +1,21 @@
+.FollowUpTableWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.FollowUpTableCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#TodaysFollowCard {
+    width: 100%;
+}
+
+#SalesTableCont>.Table-Responsive>table>tbody>tr:hover {
+    cursor: default;
+    background-color: #F6F6F6 !important;
+}

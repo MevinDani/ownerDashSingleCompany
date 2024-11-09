@@ -1,0 +1,52 @@
+.bankBalance-Cont {
+    width: 100%;
+}
+
+.CardFive-Cont {
+    width: 100%;
+}
+
+.CardFour-Cont {
+    width: 100%;
+}
+
+.sales-Cont {
+    width: 100%;
+}
+
+.CashBalance-Cont {
+    width: 100%;
+}
+
+.DepartmentSales-Cont {
+    width: 100%;
+}
+
+.DebCred-Cont {
+    width: 100%;
+}
+
+.custom-grid-item {
+    position: static !important;
+    /* or 'relative' */
+}
+
+/* 
+.PaybleContCont {
+    width: 85%;
+} */
+
+@media (max-width:680px) {
+
+    .DropNewCont {
+        display: block !important;
+    }
+
+    .DropNewCont>div {
+        width: 97% !important;
+    }
+
+    .DropInnerComp {
+        margin: 8px 0px;
+    }
+}

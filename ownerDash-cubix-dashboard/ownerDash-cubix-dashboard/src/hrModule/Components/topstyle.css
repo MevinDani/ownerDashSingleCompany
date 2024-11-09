@@ -1,0 +1,148 @@
+/* sidebar */
+.main-head h6 {
+    color: black;
+    font-size: 20px;
+    padding-top: 20px
+}
+
+.main-head img {
+    background-color: #f0eded;
+    border-radius: 2px;
+}
+
+.main-head hr {
+    color: black;
+    background-color: #fff;
+}
+
+.menu-section {
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 28px;
+}
+
+.menu-section:hover {
+    color: blue !important;
+}
+
+.menu-section p {
+    /* padding-top: 1px; */
+    border: none;
+}
+
+.side-head {
+    color: black;
+    font-size: 14px;
+}
+
+.menu-section a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.side {
+    background-color: #EDEFFB;
+    min-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 42px;
+
+}
+
+.side hr {
+    background-color: #fff;
+    color: black;
+}
+
+.icon-home {
+    font-size: 16px;
+}
+
+.icon-top {
+    background-color: rgb(178, 146, 207);
+    width: 50px;
+    height: 50px;
+    margin-right: 0 auto
+}
+
+.sideGoBack {
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+/* 
+Topbar */
+.icon-topbar {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.topbar-name {
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.topbar-profile {
+    font-size: 30px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.sideUserCont {
+    display: flex;
+    width: 95%;
+    margin: 16px 0px;
+}
+
+.sideUserAvatar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideUserDetails {
+    width: 50%;
+    margin-left: 8px;
+}
+
+.sideUserOptions {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideSelected {
+    background-color: white;
+    padding: 8px 2px;
+    border-right: 12px solid greenyellow !important;
+}
+
+.sideClose {
+    display: none;
+}
+
+@media (max-width:856px) {
+    .side {
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .side .container {
+        margin-top: 34px;
+    }
+
+    .sideClose {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,22 @@
+.SAVDashWrapper {
+    height: fit-content;
+    /* overflow-y: auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+
+    /* width: 95%; */
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+
+/* .SAVDashCont {
+    width: 95%;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */

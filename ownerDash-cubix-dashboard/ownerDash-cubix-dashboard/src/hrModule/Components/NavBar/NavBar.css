@@ -1,0 +1,133 @@
+.NavWrapper {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.NavCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavLeft,
+.NavRight {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.NavLeft {
+    cursor: pointer;
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavLeftTwo {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NTwoIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavLeft>span {
+    margin-left: 4px;
+}
+
+.NavRight {
+    width: 15%;
+    justify-content: space-between;
+}
+
+.DashNavUser {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.DashNavUser>div,
+.DashNavUser>span {
+    margin: 0px 4px 0px 4px;
+}
+
+.DashNavUser>span {
+    padding-bottom: 4px;
+}
+
+.LogoImg {
+    width: 150px;
+    height: 50px;
+}
+
+.nav-search {
+    position: relative;
+}
+
+.nav-srch-lens {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+
+.nav-bell {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-bell-count {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #48D1CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.NavCont {
+    position: relative;
+}
+
+.NavDownArrow {
+    position: absolute;
+    top: -4px;
+    right: -2px;
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:764px) {
+    .NavRight {
+        width: 25%;
+    }
+
+    .NavLeft {
+        width: 65%;
+    }
+}
+
+@media (max-width:564px) {
+    .LogoImg {
+        width: 80px;
+        height: 30px;
+    }
+
+    .NavRight {
+        width: 30%;
+    }
+
+    .NavLeft {
+        width: 65%;
+    }
+}

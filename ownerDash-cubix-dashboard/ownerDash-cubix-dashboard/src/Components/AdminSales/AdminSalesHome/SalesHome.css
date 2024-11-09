@@ -1,0 +1,63 @@
+.SalesHomeWrapper {
+    display: flex;
+    height: 95vh;
+    overflow-y: scroll;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* flex-direction: column; */
+    background-color: #F1F1FB;
+}
+
+.SalesHomeCont {
+    width: 96%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 2px 2px 14px;
+}
+
+.SalesHomeHeadText {
+    margin-bottom: 8px;
+}
+
+.SalesHomeBoxCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 12px; */
+}
+
+.SalesHomeBoxCont>div {
+    width: 30% !important;
+    margin: 4px 8px;
+    padding: 24px 12px;
+    border-radius: 4px;
+    width: 150px;
+    background: linear-gradient(to bottom, #FA0C17, #BF141D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.SalesHomeBoxCont>div:hover {
+    background: linear-gradient(to bottom, #373434, #776465);
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .SalesHomeBoxCont>div {
+        width: 45% !important;
+    }
+}
+
+@media (max-width:384px) {
+    .SalesHomeBoxCont>div {
+        width: 100% !important;
+    }
+
+    .SalesHomeWrapper {
+        height: 88vh;
+    }
+}

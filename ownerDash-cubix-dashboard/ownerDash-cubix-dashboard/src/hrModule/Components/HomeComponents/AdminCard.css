@@ -1,0 +1,116 @@
+.AdminCardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* width: 280px; */
+    /* width: 100%; */
+    height: 100%;
+    padding: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.AdminCardCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+
+.CoverImgCont {
+    width: 100%;
+    min-height: 115px;
+    background-image: url('../images/blue-wall-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: relative; */
+}
+
+.ProfileImgCont {
+    z-index: 1;
+    width: 120px;
+    /* height: 120px; */
+    position: relative;
+    margin-top: -55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    /* border-radius: 100px; */
+    /* border: 10px solid #fff; */
+}
+
+.ProfileImgCont {
+    display: flex;
+    margin: -55px auto 4px;
+    position: relative;
+    width: 120px;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .ProfileImgCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+} */
+
+.profilePic {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+/* .UserName {
+    margin-bottom: 8px;
+} */
+
+.ProfileDataCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    /* padding-top: 20px; */
+}
+
+.ProfileData {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PDItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.PDItems>div {
+    font-size: 12px;
+}
+
+.ProfileButtons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.ProfileButtons>div {
+    background-color: #3F51B5;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ProfileButtons>div:hover {
+    background-color: #5066e7;
+}

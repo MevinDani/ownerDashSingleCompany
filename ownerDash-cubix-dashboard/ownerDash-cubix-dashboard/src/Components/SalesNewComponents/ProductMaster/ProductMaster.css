@@ -1,0 +1,156 @@
+.ProductMasterBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductMasterTopBox {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 8px;
+    padding: 4px 8px;
+}
+
+.ProductMasterTopBox>div {
+    width: 30%;
+    margin: 0px 4px;
+}
+
+.ProductMasterDescSpec {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 4px 8px;
+}
+
+.ProductMasterDescSpec>div {
+    width: 45%;
+    margin: 0px 4px;
+}
+
+.ProductMasterNavTabs {
+    width: 100%;
+    background-color: white;
+    margin: 8px 0px;
+}
+
+.ProductMasterItemDetailsBox {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.PMDetailBox {
+    width: 100%;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PMDetailLeft {
+    width: 30%;
+    padding: 4px 8px;
+}
+
+.PMDetailRight {
+    width: 70%;
+    padding: 4px 8px;
+}
+
+.PMDetailRightTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PMDetailRightTop>div {
+    margin: 8px;
+}
+
+.PMDetailRightMainBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PMDetailRightMainBox>div {
+    margin: 8px;
+    width: 32%;
+}
+
+.MoreRefBox {
+    width: 100%;
+    background-color: white;
+}
+
+.MoreRefWhiteBox {
+    height: 200px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.PMDetailOptions {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding: 4px 8px;
+}
+
+.SalesBottomButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SB_BOX {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SB_BOX>div {
+    margin: 8px;
+}
+
+@media (max-width:1100px) {
+    .PMDetailBox {
+        flex-direction: column;
+    }
+
+    .PMDetailLeft,
+    .PMDetailRight {
+        width: 100%;
+    }
+}
+
+@media (max-width:724px) {
+    .PMDetailRightMainBox {
+        flex-direction: column;
+    }
+
+    .PMDetailRightMainBox>div {
+        width: 100%;
+    }
+
+    .PMDetailRightTop {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:602px) {
+    .ProductMasterDescSpec {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ProductMasterDescSpec>div {
+        width: 100%;
+    }
+
+    .ProductMasterTopBox {
+        flex-direction: column;
+    }
+
+    .ProductMasterTopBox>div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+.lAlign {
+    text-align: center;
+}
+
+.mobTableDrop {
+    display: none;
+}
+
+.DelOContainer {
+    background-color: #F1F1FB;
+}
+
+.OverallWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F1F1FB;
+}
+
+@media (max-width:768px) {
+    .pcTableDrop {
+        display: none;
+    }
+
+    .mobTableDrop {
+        display: block;
+    }
+
+    .mobHideth {
+        display: none;
+    }
+}

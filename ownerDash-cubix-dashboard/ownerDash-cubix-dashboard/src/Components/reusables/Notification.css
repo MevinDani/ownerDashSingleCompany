@@ -1,0 +1,56 @@
+.table {
+    font-size: 14px;
+
+}
+
+.btn-dtls {
+    background-color: #7d681a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.table {
+    font-size: 22px;
+}
+
+td {
+    font-size: 20px;
+    color: #5e5d5d;
+}
+
+#loopTd {
+    font-size: 18px;
+}
+
+#NotHead {
+    color: orange;
+}
+
+/* Media query for screens 760px and below */
+@media screen and (max-width: 760px) {
+    #deptSales .card-dashboard {
+        font-size: 14px;
+    }
+
+    #deptSales .TSDaysText {
+        font-size: 14px;
+    }
+
+    #deptSales .TSDText {
+        font-size: 18px;
+    }
+
+    #branchSalesHead {
+        font-size: 14px;
+    }
+
+    #deptSales #loopTd {
+        font-size: 14px;
+    }
+
+    #NotHead {
+        font-size: 16px;
+    }
+}

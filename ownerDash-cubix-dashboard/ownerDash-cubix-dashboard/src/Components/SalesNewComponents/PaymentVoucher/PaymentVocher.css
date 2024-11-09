@@ -1,0 +1,22 @@
+.PVButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PVButtons>div {
+    width: 25%;
+}
+
+@media (max-width:564px) {
+    .PVInp2Cols {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PVInpLR {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

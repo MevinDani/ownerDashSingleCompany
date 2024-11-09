@@ -1,0 +1,194 @@
+/* .UpDashWrapper {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1FB;
+    margin-top: 22px;
+    width: 100%;
+}
+
+.UpDashCont {
+    width: 95%;
+    display: grid;
+    padding: 0.2em;
+    gap: 0.5em;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-auto-flow: dense;
+}
+
+
+
+
+.BankBalance,
+.CardThree {
+    grid-column: span 2;
+}
+
+.CashBalance {
+    grid-column: span 2;
+}
+
+
+.LineGraph,
+.DepartmentSales {
+    grid-column: span 3;
+}
+
+.PaybleCont,
+.DoughnutChart {
+    grid-column: span 3;
+}
+
+.TopProductCode,
+.DebCred {
+    grid-column: span 3;
+}
+
+.CredAge {
+    grid-column: span 3;
+}
+
+.CardFive,
+.CardFour {
+    grid-column: span 2;
+}
+
+
+.TopCust,
+.TopSalesMan {
+    grid-column: span 3;
+}
+
+.wide {
+    width: 100%;
+}
+
+.narrow {
+    width: 95%;
+}
+
+
+@media (max-width:850px) {
+
+    .BankBalance,
+    .CardThree {
+        grid-column: span 3;
+    }
+
+    .CashBalance {
+        grid-column: span 2;
+    }
+
+    .LineGraph {
+        grid-column: span 4;
+    }
+
+
+    .DepartmentSales {
+        grid-column: span 4;
+    }
+
+    .PaybleCont {
+        grid-column: span 2;
+    }
+
+    .DoughnutChart {
+        grid-column: span 3;
+    }
+
+    .TopProductCode,
+    .DebCred {
+        grid-column: span 3;
+    }
+
+    .CredAge {
+        grid-column: span 3;
+    }
+
+    .CardFive,
+    .CardFour {
+        grid-column: span 3;
+    }
+
+    .TopCust,
+    .TopSalesMan {
+        grid-column: span 3;
+    }
+
+}
+
+@media (max-width:764px) {
+
+    .CashBalance {
+        grid-column: span 3;
+    }
+
+    .DepartmentSales {
+        grid-column: span 3;
+    }
+
+    .TopSalesMan {
+        grid-column: span 4;
+    }
+
+    .LineGraph {
+        grid-column: span 6;
+    }
+
+    .DoughnutChart,
+    .TopProductCode {
+        grid-column: span 6;
+    }
+
+    .CredAge,
+    .DebCred {
+        grid-column: span 6;
+    }
+
+    .TopCust {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width:605px) {
+
+    .BankBalance,
+    .CardThree,
+    .CashBalance {
+        grid-column: span 6;
+    }
+
+    .DepartmentSales {
+        grid-column: span 6;
+    }
+
+    .CardFive,
+    .CardFour {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width:480px) {
+    .DepartmentSales {
+        grid-column: span 6;
+    }
+
+    .PaybleCont {
+        grid-column: span 6;
+    }
+
+    .TopSalesMan {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width:432px) {
+
+    .CardFive,
+    .CardFour {
+        grid-column: span 6;
+    }
+} */
+

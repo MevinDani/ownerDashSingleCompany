@@ -1,0 +1,46 @@
+.BPALeft {
+    width: 35%;
+    padding: 4px;
+}
+
+.BPARight {
+    width: 65%;
+    padding: 4px;
+}
+
+.BPAToggleBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BPAToggleBox>div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.POD2INPS>div {
+    width: 50%;
+    margin: 0px 4px;
+}
+
+@media (max-width:980px) {
+    .BPALeft {
+        width: 100%;
+    }
+
+    .BPARight {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .POD2INPS {
+        flex-direction: column;
+    }
+
+    .POD2INPS>div {
+        width: 100%;
+        margin: 4px 0px;
+    }
+}

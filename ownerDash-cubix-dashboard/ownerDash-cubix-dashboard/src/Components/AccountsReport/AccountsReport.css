@@ -1,0 +1,9 @@
+.accReportBox>div {
+    width: 45% !important;
+}
+
+@media (max-width:384px) {
+    .accReportBox>div {
+        width: 95% !important;
+    }
+}

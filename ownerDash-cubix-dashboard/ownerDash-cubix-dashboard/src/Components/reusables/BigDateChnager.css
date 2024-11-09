@@ -1,0 +1,151 @@
+.BigDateChangerWrapper {
+    background-color: #F3F3F3;
+    width: 100%;
+    background-color: #b5d8ff;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.BigDateChangerCont {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    flex-direction: column;
+}
+
+.BigDateChangeHead {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.BigDateShowCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigDateClose {
+    position: absolute;
+    right: 0;
+}
+
+.BigDateClose:hover {
+    cursor: pointer;
+}
+
+.BigDateChangeControlBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.BigDayControlBox,
+.BigMonthControlBox,
+.BigYearControlBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 30%;
+    padding: 4px;
+}
+
+.BigDayControlBox:hover,
+.BigMonthControlBox:hover,
+.BigYearControlBox:hover {
+    cursor: pointer;
+}
+
+.DCBLeft,
+.DCBRight,
+.MCBLeft,
+.MCBRight,
+.YCBLeft,
+.YCBRight {
+    display: none;
+    color: gray;
+}
+
+.DCBLeft:hover,
+.DCBRight:hover,
+.MCBLeft:hover,
+.MCBRight:hover,
+.YCBLeft:hover,
+.YCBRight:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.DCBDayText {
+    color: gray;
+}
+
+.DCBDayText:hover {
+    color: black;
+}
+
+.BigDayControlBox.active {
+    background-color: white;
+}
+
+.BigDayControlBox.active>.DCBLeft {
+    display: block;
+}
+
+.BigDayControlBox.active>.DCBRight {
+    display: block;
+}
+
+.BigMonthControlBox.active {
+    background-color: white;
+}
+
+.BigMonthControlBox.active>.MCBLeft {
+    display: block;
+}
+
+.BigMonthControlBox.active>.MCBRight {
+    display: block;
+}
+
+.BigYearControlBox.active {
+    background-color: white;
+}
+
+.BigYearControlBox.active>.YCBLeft {
+    display: block;
+}
+
+.BigYearControlBox.active>.YCBRight {
+    display: block;
+}
+
+@media (max-width:1350px) {
+    /* .BigDateClose {
+        position: absolute;
+        left: 240px;
+    } */
+
+    .BigDayControlBox,
+    .BigMonthControlBox,
+    .BigYearControlBox {
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+
+/* @media (max-width:1255px) {
+    .BigDateClose {
+        position: absolute;
+        left: 210px;
+    }
+}
+
+@media (max-width:480px) {
+    .BigDateClose {
+        position: absolute;
+        left: 320px;
+    }
+} */

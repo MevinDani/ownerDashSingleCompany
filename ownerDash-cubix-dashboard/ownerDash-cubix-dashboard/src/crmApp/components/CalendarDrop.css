@@ -1,0 +1,132 @@
+.ClendarDropWrapper {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.ClendarDropCont {
+    background-color: white;
+    width: 95%;
+    /* height: 100%; */
+}
+
+
+.ClendarDropWrapper {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.ClendarDropTable1>table {
+    background-color: white;
+}
+
+.ClendarDropTable1>table>thead>tr>th {
+    background-color: white;
+}
+
+/* .ClendarDropTable1>table>tbody>tr>td {
+    background-color: white;
+} */
+
+.ClendarDropTable2>table {
+    background-color: white;
+}
+
+.ClendarDropTable2>table>thead>tr>th {
+    background-color: #1087FF;
+    color: white;
+    font-size: 12px;
+}
+
+.ClendarDropTable2>table>tbody>tr>td {
+    background-color: #F3F3F3;
+}
+
+.ClendarDropCont>.QkOverText,
+.ClendarDropCont>.FolloUpText {
+    display: flex;
+    justify-content: center;
+    color: #1087FF;
+    font-size: 18px;
+}
+
+@media (max-width:845px) {
+
+    .ClendarDropTable1 thead,
+    .ClendarDropTable1 th {
+        display: none;
+    }
+
+    .ClendarDropTable1 tr,
+    .ClendarDropTable1 td {
+        display: block;
+    }
+
+    .ClendarDropTable1 tr {
+        border: 1px solid rgba(0, 0, 0, .15);
+        margin-bottom: 2rem;
+    }
+
+    .ClendarDropTable1 tr:last-child {
+        margin-bottom: 0;
+    }
+
+    .ClendarDropTable1 tr:nth-child(even) td {
+        background-color: transparent;
+    }
+
+    .ClendarDropTable1 td {
+        clear: both;
+        text-align: right;
+    }
+
+    .ClendarDropTable1 td:before {
+        content: attr(data-label)': ';
+        float: left;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    /* table 2 */
+
+    .ClendarDropTable2 thead,
+    .ClendarDropTable2 th {
+        display: none;
+    }
+
+    .ClendarDropTable2 tr,
+    .ClendarDropTable2 td {
+        display: block;
+    }
+
+    .ClendarDropTable2 tr {
+        border: 1px solid rgba(0, 0, 0, .15);
+        margin-bottom: 2rem;
+    }
+
+    .ClendarDropTable2 tr:last-child {
+        margin-bottom: 0;
+    }
+
+    .ClendarDropTable2 tr:nth-child(even) td {
+        background-color: transparent;
+    }
+
+    .ClendarDropTable2 td {
+        clear: both;
+        text-align: right;
+    }
+
+    .ClendarDropTable2 td:before {
+        content: attr(data-label)': ';
+        float: left;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+
+
+}

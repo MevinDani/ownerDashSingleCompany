@@ -1,0 +1,45 @@
+.pdcTable thead tr th {
+    text-align: left !important;
+}
+
+.pdcTable .rAlign {
+    text-align: right !important;
+}
+
+.pdcTableCover {
+    height: 400px;
+}
+
+.mobTableDrop {
+    display: none;
+}
+
+.pdcFootTotal {
+    column-span: 5 !important;
+}
+
+@media (max-width:768px) {
+    .pcTableDrop {
+        display: none;
+    }
+
+    .mobTableDrop {
+        display: block;
+    }
+
+    .mobHideth {
+        display: none;
+    }
+}
+
+@media (max-height:670px) {
+    .pdcTableCover {
+        height: 327px !important;
+    }
+}
+
+@media (max-width:384px) {
+    .pdcTableCover {
+        height: 299px !important;
+    }
+}

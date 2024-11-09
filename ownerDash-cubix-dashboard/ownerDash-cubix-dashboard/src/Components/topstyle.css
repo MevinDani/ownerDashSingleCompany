@@ -1,0 +1,69 @@
+/* sidebar */
+.main-head h6{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px
+}
+.main-head hr{
+    color: #fff;
+    background-color: #fff;
+}
+.menu-section{
+    color: #fff;
+    font-size: 13px
+}
+.menu-section p{
+    padding-top: 1px;
+
+    
+}
+.side-head{
+    color: #f0eded;
+    font-size: 14px;
+}
+.menu-section a{
+    text-decoration: none;
+    color: #fff;
+ 
+}
+.side{
+    
+  background-color:  rgb(100, 22, 173);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+ 
+  
+}
+.side hr{
+ background-color: #fff;
+ color: #fff;
+}
+.icon-home{
+    font-size: 16px;
+}
+.icon-top{
+    background-color: rgb(178, 146, 207);
+    width: 50px;
+    height: 50px;
+    margin-right: 0 auto
+}
+
+
+
+/* 
+Topbar */
+.icon-topbar{
+    font-size: 18px;
+    margin-left:10px;
+}
+.topbar-name{
+    font-size: 14px;
+    color: gray;
+    margin-left:10px;
+}
+.topbar-profile{
+    font-size: 30px;
+    color: gray;
+    margin-left:10px;
+}

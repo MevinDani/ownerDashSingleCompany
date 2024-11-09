@@ -1,0 +1,13 @@
+.RexVoucherBillTable {
+    width: 100%;
+    max-height: 250px;
+    overflow-x: scroll;
+}
+
+@media (max-width:764px) {
+    .RexVoucherBillTable {
+        width: 100%;
+        max-height: 250px;
+        overflow-x: scroll;
+    }
+}

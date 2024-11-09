@@ -1,0 +1,11 @@
+.grpTableCover table tbody tr td {
+    font-size: 16px;
+}
+
+.custOut table thead tr th {
+    text-align: left;
+}
+
+.custOut table tbody tr {
+    cursor: pointer;
+}

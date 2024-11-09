@@ -1,0 +1,24 @@
+.PODINPBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.PODINPBox>div {
+    margin: 2px;
+}
+
+.PODButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.PODButtons>button {
+    margin: 2px;
+}
+
+.PODBody {
+    background-color: white;
+    min-height: 500px;
+}

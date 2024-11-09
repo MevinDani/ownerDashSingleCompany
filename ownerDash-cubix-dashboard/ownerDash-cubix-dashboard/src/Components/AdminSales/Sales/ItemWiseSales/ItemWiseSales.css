@@ -1,0 +1,10 @@
+.itemWiseTableCover {
+    width: 99%;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.itemWiseSalesGrp {
+    height: 90vh;
+    background-color: #F1F1FB;
+}

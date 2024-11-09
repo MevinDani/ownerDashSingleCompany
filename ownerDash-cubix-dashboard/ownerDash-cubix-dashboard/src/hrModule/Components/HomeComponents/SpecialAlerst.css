@@ -1,0 +1,64 @@
+.SpecialAlertsWrapper {
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* width: 300px; */
+    padding: 8px;
+    /* height: 100%; */
+}
+
+.SpecialAlertsCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.SpecialAlertsHead {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #689F38;
+}
+
+.SpecialAlertsItemCont {
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+    flex-direction: column;
+}
+
+.SpecialAlertsItem {
+    display: flex;
+    width: 100%;
+    background-color: #F8F9FE;
+    color: black;
+    padding: 8px 2px;
+    margin-bottom: 6px;
+}
+
+.NH {
+    width: 100%;
+}
+
+.SAsuccess {
+    background-color: #EAF8EE;
+    color: #0F6520;
+}
+
+.SAInfo {
+    background-color: #EBF4FA;
+    color: #033E73;
+}
+
+.SAWarn {
+    background-color: #FAF5DC;
+    color: #7C4D00;
+}
+
+.SAError {
+    background-color: #FCEDEB;
+    color: #AB362F;
+}

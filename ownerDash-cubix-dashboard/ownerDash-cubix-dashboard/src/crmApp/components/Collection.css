@@ -1,0 +1,18 @@
+.CollectionWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.CollectionCont {
+    width: 85%;
+}
+
+.CollectionText {
+    font-weight: bold;
+    text-align: left;
+}
+
+#collectionSave {
+    margin-top: 12px;
+}

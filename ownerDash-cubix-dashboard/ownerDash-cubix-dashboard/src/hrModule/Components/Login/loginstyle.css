@@ -1,0 +1,45 @@
+.login-box-section {
+    background-color: #eeebf7;
+    padding: 70px;
+}
+
+.main-box {
+    padding: 10px;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-box {
+
+    background-color: white;
+    border-bottom: 5px solid rgb(92, 92, 134);
+    padding: 35px;
+
+}
+
+.left-part {
+    background-image: url(../../images/login-image.png);
+    background-repeat: no-repeat;
+    height: 410px;
+    border-bottom: 5px solid rgb(92, 92, 134);
+    border-radius: 10px 0px 0px 10px;
+    background-position: center;
+
+}
+
+.cubix-text {
+    background-color: #19015ae1;
+    width: 50%;
+    font-size: 13px;
+}
+
+.cubix-text h4 {
+    line-height: 5px;
+}
+
+.login-box img {
+
+    height: 100%;
+
+}

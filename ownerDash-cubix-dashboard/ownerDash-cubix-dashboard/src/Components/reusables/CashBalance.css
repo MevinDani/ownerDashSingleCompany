@@ -1,0 +1,489 @@
+/* #cashBHeight {
+    height: 93%;
+} */
+
+#cashBWrap {
+    position: relative;
+    /* height: 100vh; */
+    /* backdrop-filter: blur(20px); */
+    /* height: 100%; */
+}
+
+#cashBWrap::before {
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: -2px;
+    width: 95%;
+    height: 100%;
+    background: url('../../images/cash_balance_svg_file.svg') center/cover;
+    /* Replace 'your-image-url.jpg' with your image URL */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-text-four {
+    /* color: #7d681a; */
+    font-size: 16px;
+}
+
+.wallet {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111C84;
+}
+
+.LineList {
+    /* margin-right: 10px; */
+    color: #7F7F7F;
+}
+
+.LineList:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.cashBalance {
+    margin-left: 5px;
+    color: #111C84;
+    font-size: 28px;
+}
+
+#cashBalanceText {
+    font-size: 24px;
+    font-weight: normal;
+    color: #111C84;
+}
+
+#cashTable {
+    font-size: 18px;
+}
+
+#cashTable>thead>tr>th {
+    background-color: white;
+}
+
+#cashTds {
+    font-size: 16px;
+    background-color: #f3f3f3;
+    border: 1px solid white;
+}
+
+.eyeCash {
+    display: flex;
+    justify-content: center;
+    /* background-color: #caf0f8; */
+    border-radius: 150px;
+    padding: 6px;
+}
+
+#cshText {
+    color: #111C84;
+}
+
+.MuiBox-root.css-b9iqrn {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: white;
+}
+
+/* .wide {
+    height: 100%;
+}
+
+.wider {
+    height: 23%;
+} */
+
+
+/* .card-hover {
+    transition: 0.5s
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+} */
+
+@media screen and (max-width: 2218px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1980px) {
+    #cashBWrap::before {
+        top: 37px;
+    }
+}
+
+
+@media screen and (max-width: 1950px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 38px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1605px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 43px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 45px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1477px) {
+    #cashBWrap::before {
+        top: 44px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 45px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 37px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+
+@media (max-width:1250px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .wider {
+        height: 81%;
+    }
+}
+
+@media (max-width:1210px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 32px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:1122px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 34px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:1028px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 37px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:906px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 39px;
+        left: -2px;
+        width: 95%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .card-dashboard {
+        /* Adjust styles for the card at smaller screen sizes */
+        padding: 1rem;
+    }
+
+    .wallet {
+        /* Adjust styles for the wallet icon at smaller screen sizes */
+        font-size: 24px;
+    }
+
+    #cashBalanceText {
+        /* Adjust styles for the cash balance text at smaller screen sizes */
+        font-size: 18px;
+    }
+
+    .card-subtitle-four {
+        /* Adjust styles for the card subtitle at smaller screen sizes */
+        font-size: 14px;
+    }
+
+    .cashBalance {
+        /* Adjust styles for the cash balance value at smaller screen sizes */
+        font-size: 18px;
+    }
+
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .wider {
+        height: 100%;
+    }
+}
+
+@media (max-width:740px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 23px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:695px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 26px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:610px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 28px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 32px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:475px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 34px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:435px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 36px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+
+
+/* Media query for screens 480px and below */
+@media screen and (max-width: 480px) {
+    #cashTable {
+        font-size: 14px;
+    }
+
+    #cashTds {
+        font-size: 14px;
+    }
+
+    .LineList {
+        font-size: 14px;
+    }
+
+
+    #cashBalanceText {
+        /* Adjust styles for the cash balance text at smaller screen sizes */
+        font-size: 18px;
+    }
+
+
+    /* Add more styles as needed for smaller screens */
+}
+
+@media screen and (max-width: 400px) {
+    #cashBWrap::before {
+        content: "";
+        position: absolute;
+        top: 37px;
+        left: 12px;
+        width: 85%;
+        height: 100%;
+        background: url('../../images/cash_balance_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}

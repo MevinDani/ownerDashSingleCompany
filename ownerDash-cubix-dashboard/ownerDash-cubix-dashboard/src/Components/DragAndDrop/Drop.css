@@ -1,0 +1,83 @@
+.DropWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.DropSubCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.DropRowOne,
+.DropRowTwo,
+.DropRowThree,
+.DropRowFour {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.DropRowOne>div {
+    width: 30%;
+}
+
+.DropRowTwo>div {
+    width: 30%;
+}
+
+.DropRowThree>div {
+    width: 30%;
+}
+
+.DropRowFour>div {
+    width: 30%;
+}
+
+.DropRow,
+.DropRowHalf {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+    width: auto;
+}
+
+.DropRow>div {
+    width: 32%;
+}
+
+.DropRowHalf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DropRowHalf>div {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 4px;
+}
+
+@media only screen and (max-width:760px) {
+
+    .DropRow,
+    .DropRowHalf {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+
+    .DropRow>div {
+        width: 95%;
+        margin: 8px;
+    }
+
+
+    .DropRowHalf>div {
+        width: 100%;
+    }
+}

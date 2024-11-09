@@ -1,0 +1,368 @@
+/* .GrpWrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: scroll;
+} */
+
+.grpContainer {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh !important;
+    overflow-y: scroll;
+    background-color: #F1F1FB;
+
+    /* overflow-y: auto; */
+}
+
+.grpSdText span {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: white;
+    border-left: 5px solid #60D960;
+}
+
+.grpSdText {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.grpDateCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 10px;
+    width: 90%;
+}
+
+.grpDateInp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.grpInpLeft,
+.grpInpRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grpInpLeft {
+    width: 55%;
+}
+
+.grpInpRight {
+    width: 20%;
+}
+
+.grpInp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.grpInp input {
+    height: 100%;
+}
+
+.grpContainer label {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+
+.labeStyle {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.selectStyle {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #228B22;
+    color: white;
+    cursor: pointer;
+}
+
+.filter {
+    width: 90%;
+    margin: 6px;
+    display: flex;
+    justify-content: start;
+}
+
+.grpfilterCont {
+    display: flex;
+}
+
+.grpfilterCont>* {
+    margin: 0px 8px;
+}
+
+.grptableCont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    background-color: aliceblue;
+    /* height: 100vh;
+    overflow-y: auto; */
+}
+
+#numD {
+    text-align: center;
+    font-size: 16px;
+}
+
+.grpplusTd {
+    font-size: 16px;
+}
+
+.grptableCont table {
+    width: 100%;
+    background-color: rgb(192, 226, 255);
+}
+
+.grpTableCover {
+    width: 99%;
+    height: 1200px;
+    overflow-y: auto;
+}
+
+.grptableCont table thead tr th {
+    font-size: 14px;
+    background-color: #242323;
+    color: white;
+    text-align: center;
+}
+
+.DeptSpan {
+    display: flex;
+    justify-content: start;
+}
+
+.DeptSpan>span {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #228B22;
+    color: white;
+}
+
+.grpButton {
+    padding: 5px 20px;
+    background-color: #C23030;
+    /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grpButtonR {
+    padding: 5px 20px;
+    background-color: #455848;
+    /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grpButton:hover {
+    background-color: #0056b3;
+    /* Darker blue color on hover */
+}
+
+.grptableCont {
+    max-width: 100%;
+    background-color: #F1F1FB;
+    /* overflow-x: scroll;
+    overflow-y: auto; */
+    /* Add a border to the container */
+}
+
+.grptableCont table {
+    border-collapse: collapse;
+}
+
+.expandable {
+    display: table-cell;
+}
+
+.grpplusTd .fa-solid {
+    display: none;
+}
+
+.grpplusTd .newDrop {
+    display: none;
+}
+
+.grpplusTd {
+    display: flex !important;
+    justify-content: left !important;
+}
+
+.grpplusTd>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px;
+}
+
+.mobTableDrop {
+    display: none;
+}
+
+.rAlign {
+    text-align: right !important;
+}
+
+.mobViewPlusMinus {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .pcTableDrop {
+        display: none;
+    }
+
+    .mobTableDrop {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .mobHideth {
+        display: none;
+    }
+
+    .mobViewPlusMinus {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .grptableCont .hidden {
+        display: none;
+    }
+
+    .grpplusTd .fa-solid {
+        display: contents;
+    }
+
+    .grpplusTd .newDrop {
+        display: block;
+    }
+
+    .grpplusTd {
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .grptableCont table {
+        display: block;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0 auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    } */
+
+    .grpInp label {
+        font-size: medium;
+    }
+
+    .grpInp input {
+        height: 20px;
+    }
+
+    /* .grpDateInp .grpButton {
+        height: 36px;
+        width: 63px;
+        margin-left: 10px;
+    } */
+
+    .grpDateCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 95%;
+    }
+
+    .grpDateInp {
+        width: 100%;
+    }
+
+    th,
+    td {
+        min-width: 160px;
+    }
+
+    .grpDateInp {
+        display: grid !important;
+        padding: 0.2em;
+        gap: 0.5em;
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-flow: dense;
+    }
+
+    .grpInpLeft {
+        width: 100%;
+    }
+
+    .grpInpRight {
+        width: 100%;
+    }
+
+    .grpInpLeft,
+    .grpInpRight {
+        grid-column: span 6 !important;
+    }
+
+    .grpDateInp {
+        margin-bottom: 36px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    .grpInpLeft {
+        display: grid !important;
+        padding: 0.2em;
+        gap: 0.5em;
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-flow: dense;
+    }
+
+    .grpInp {
+        grid-column: span 6 !important;
+    }
+
+    .grpDateInp {
+        margin-bottom: 50px;
+    }
+}

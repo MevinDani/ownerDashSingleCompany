@@ -1,0 +1,225 @@
+.DoughnutWrapper {
+    /* background-color: rgb(138, 232, 255);
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.DoughnutCont {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 24px;
+
+    /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%) !important; */
+
+}
+
+.DFMAINDROP {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.DFDropItems {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.DFDropDownText {
+    border-bottom: 1px solid #7F7F7F;
+    color: #7F7F7F;
+}
+
+#LeftDrops {
+    width: 30%;
+}
+
+/* #RightDrops {
+    width: 30%;
+} */
+
+
+.DFDropDownText:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.DFDText {
+    font-size: 24px;
+    color: #7F7F7F;
+}
+
+.DFDropItems .fa-solid {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.DFProdCont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.DFMonthCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.DoughCont {
+    width: 100%;
+    /* height: 100%; */
+    height: 450px;
+}
+
+.DFProdCont,
+.DFMonthCont {
+    position: relative;
+}
+
+.DFDropDownCont {
+    position: absolute;
+    top: 100%;
+    left: 100;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    width: 100%;
+    background-color: white;
+    /* Add a background color to dropdown for visibility */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for separation */
+}
+
+.DFDText {
+    font-size: 20px;
+}
+
+.DFDropItems .fa-solid {
+    padding-left: 4px;
+    padding-bottom: 5px;
+}
+
+.DoughnutCont {
+    width: 100%;
+
+}
+
+.DFDropDownCont {
+    width: 60%;
+    text-align: right;
+}
+
+.DFDropDownCont .DFDropDownText {
+    font-size: 15px;
+}
+
+.DFMonthCont .DFDropItems .DFDText:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+#DoughDropCont {
+    display: flex;
+    align-items: center;
+}
+
+.TSDropDropped {
+    color: #000000;
+}
+
+
+.TSDropDown {
+    z-index: 1;
+}
+
+#DoughMD {
+    width: 50%;
+}
+
+#doughDrops {
+    width: 110%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#TopGrpText {
+    color: rgb(64, 64, 90);
+}
+
+.apexcharts-datalabels-group {
+    display: none;
+}
+
+/* 
+.DoughCont {
+    width: 80%;
+} */
+
+@media (max-width:1195px) {
+    #LeftDrops {
+        width: 70%;
+    }
+
+    #RightDrops {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:840px) {
+    .DFDText {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:760px) {
+    .DoughnutCont {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:670px) {
+    .DFDText {
+        font-size: 18px;
+    }
+
+    .DFDropItems .fa-solid {
+        padding-left: 4px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width:480px) {
+    #TopGrpText {
+        font-size: 14px;
+    }
+
+    #DoughDrop {
+        padding-top: 0;
+    }
+
+    #doughDrops .TSDropDownText {
+        font-size: 12px;
+    }
+
+    /* .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center,
+    .apexcharts-legend.apx-legend-position-top.apexcharts-align-center {
+        width: 50%;
+        height: auto;
+        justify-content: center;
+    } */
+
+}

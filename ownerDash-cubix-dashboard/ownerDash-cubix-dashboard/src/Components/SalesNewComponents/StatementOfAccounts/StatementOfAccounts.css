@@ -1,0 +1,88 @@
+.SOAREFDIV>.input-group {
+    width: 70%;
+}
+
+.SOAREFDIV>.RefIcon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.RefSpan {
+    margin: 4px;
+}
+
+.SOALeftOptions {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.SOA4Options {
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.SOA4Options>.form-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SOAFCToggle {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SOARadio {
+    width: 28%;
+}
+
+.ProductMasterNavTabs>ul>li:hover {
+    cursor: pointer;
+}
+
+@media (max-width:980px) {
+    .SOALeftOptions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SOALeftOptions>div {
+        margin: 6px 0px;
+    }
+
+    .SOA4Options {
+        width: 70%;
+    }
+
+    .SOAFCToggle {
+        width: 50%;
+    }
+
+    .SOARadio {
+        width: 50%;
+    }
+}
+
+@media (max-width:540px) {
+    .SOA4Options {
+        width: 100%;
+    }
+
+    .SOAFCToggle {
+        width: 100%;
+    }
+
+    .SOARadio {
+        width: 100%;
+    }
+}

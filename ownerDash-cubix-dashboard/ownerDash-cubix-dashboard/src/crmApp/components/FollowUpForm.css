@@ -1,0 +1,435 @@
+.FollowUpFormWrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    padding: 8px;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+}
+
+.FollowUpFormCont {
+    padding: 4px;
+    width: 95%;
+}
+
+.FollowUpText {
+    width: 100%;
+    text-align: left;
+    padding: 2px 0px;
+    border-bottom: 1px solid teal;
+}
+
+.FollowUpFormButtonBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FFSaveButton {
+    background-color: green;
+    color: white;
+    padding: 6px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.FFCloseButton {
+    background-color: red;
+    color: white;
+    padding: 6px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.FFSaveButton:hover {
+    background-color: rgb(20, 172, 20);
+}
+
+.FFCloseButton:hover {
+    background-color: rgb(221, 0, 0);
+}
+
+.AddItemCont {
+    display: grid;
+    gap: 0.8em;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-flow: dense;
+    padding: 12px;
+    background-color: #F6F8FA;
+}
+
+.AddItemCont>div {
+    grid-column: span 3;
+}
+
+.collapse>.card {
+    background-color: #F6F8FA;
+}
+
+.AddItemBtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.AnalysisWrapper {
+    width: 100%;
+}
+
+.AnalysisCont {
+    width: 100%;
+}
+
+.AnalysisHeader {
+    background-color: black;
+}
+
+.AnalysisOptionBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.OppImgs {
+    width: 30px;
+    height: 30px;
+}
+
+.OppWonBox,
+.NegBox,
+.PropBox,
+.DemoBox,
+.LQBox,
+.ProsBox {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 6px;
+    margin-bottom: 18px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.OppVisible {
+    display: flex;
+    width: 100%;
+}
+
+.OppText {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.OppWonBox {
+    background-color: #309142;
+}
+
+.NegBox {
+    background-color: #51B464;
+}
+
+.PropBox {
+    background-color: #ffd452;
+}
+
+.DemoBox {
+    background-color: #E39801;
+}
+
+.LQBox {
+    background-color: #E13531;
+}
+
+.ProsBox {
+    background-color: #6E0611;
+}
+
+.DemoUpdates {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DemoUpdates>div {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.updateModalText>div {
+    margin: 8px;
+}
+
+.followCont {
+    width: 100%;
+}
+
+.LDsource {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    padding: 6px;
+    width: 100%;
+}
+
+.FollowText {
+    color: grey;
+}
+
+.greyItemCont {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.FollowGreyItem {
+    background-color: #F7F7F7;
+    padding: 12px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.FollowBottInp {
+    width: 95%
+}
+
+#followDateDiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#followDvText {
+    margin-left: 14px;
+    color: grey;
+}
+
+.BoxDrops {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.WUC {
+    width: 100px;
+    height: 100px;
+}
+
+.FollowGreyItem {
+    cursor: pointer;
+}
+
+.FollowGreyItem.selected {
+    background-color: green;
+    color: white;
+}
+
+.TaskWrapper {
+    width: 100%;
+}
+
+.TaskHead {
+    display: flex;
+    justify-content: center;
+}
+
+.TaskForMe {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #E2C275;
+}
+
+.TaskForMe>span {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.TaskForMe #arrowRight {
+    font-size: 22px;
+}
+
+.TaskFormCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.TaskCont {
+    width: 85%;
+    margin-top: 8px;
+}
+
+.CreateTask {
+    width: 50%;
+    font-weight: bold;
+    text-align: left;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: black;
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.TaskRadio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.TaskRadio>div {
+    width: 50%;
+    text-align: left;
+    margin: 6px;
+}
+
+.input-container {
+    width: 95%;
+    margin-top: 14px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+}
+
+.label {
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+.input:focus+.label,
+.input:not(:placeholder-shown)+.label {
+    top: 5px;
+    font-size: 12px;
+    color: #007bff;
+    /* Change the color as per your design */
+}
+
+.TaskSaveBtton {
+    display: flex;
+    justify-content: center;
+}
+
+.save-button {
+    width: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #273238;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #455a64;
+    /* Change the color on hover if desired */
+}
+
+.example-custom-input {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:768px) {
+    .AddItemCont>div {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width:502px) {
+    .AddItemCont>div {
+        grid-column: span 12;
+    }
+
+    .ItemTableCont {
+        width: 100%;
+        overflow-x: scroll;
+    }
+}

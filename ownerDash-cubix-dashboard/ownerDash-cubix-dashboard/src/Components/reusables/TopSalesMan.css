@@ -1,0 +1,108 @@
+.TopSalesManWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: white;
+    width: 100%;
+}
+
+.TopSalesManCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.TopSalesManHead {
+    width: 100%;
+    /* text-align: left; */
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TopSalesManTableCover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 355px;
+    max-height: 355px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.TopSalesManTableCover table thead tr td {
+    font-size: 16px;
+}
+
+.TopSalesManTableCover table tbody tr td {
+    font-size: 16px;
+}
+
+@media (max-width:480px) {
+    .TopSalesManTableCover {
+        width: 100%;
+        overflow: auto;
+    }
+}
+
+/* test code for table responnsoveness */
+
+.TopSalesManWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: white;
+    width: 100%;
+}
+
+.TopSalesManCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.TopSalesManHead {
+    width: 100%;
+    /* text-align: left; */
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TopSalesManTableCover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+    /* Horizontal scrolling */
+}
+
+.TopSalesManTableCover table {
+    width: 100%;
+    /* Ensure table takes full width of its container */
+    table-layout: fixed;
+    /* Prevent table from expanding beyond its container */
+}
+
+.TopSalesManTableCover table thead tr td {
+    font-size: 16px;
+}
+
+.TopSalesManTableCover table tbody tr td {
+    font-size: 16px;
+}
+
+@media (max-width: 480px) {
+    .TopSalesManTableCover {
+        overflow-x: scroll;
+        /* Force horizontal scrolling on small screens */
+    }
+}

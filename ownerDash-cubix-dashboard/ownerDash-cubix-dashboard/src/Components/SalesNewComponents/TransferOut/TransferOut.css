@@ -1,0 +1,8 @@
+.TODate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TODate>div {
+    width: 45%;
+}

@@ -1,0 +1,11 @@
+.SelectReasonDropDown-root-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #acacac;
+}
+
+.SelectReasonDropDown-root-container label{
+   background-color: #000000;
+   padding: 15px 15px;
+   margin: 0px;
+}

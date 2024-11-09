@@ -1,0 +1,161 @@
+.AnalysisWrapper {
+    width: 100%;
+}
+
+.AnalysisCont {
+    width: 100%;
+}
+
+.AnalysisHeader {
+    background-color: black;
+}
+
+.AnalysisOptionBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.OppImgs {
+    width: 30px;
+    height: 30px;
+}
+
+.OppWonBox,
+.NegBox,
+.PropBox,
+.DemoBox,
+.LQBox,
+.ProsBox {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 6px;
+    margin-bottom: 18px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.OppVisible {
+    display: flex;
+    width: 100%;
+}
+
+.OppText {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.OppWonBox {
+    background-color: #309142;
+}
+
+.NegBox {
+    background-color: #51B464;
+}
+
+.PropBox {
+    background-color: #ffd452;
+}
+
+.DemoBox {
+    background-color: #E39801;
+}
+
+.LQBox {
+    background-color: #E13531;
+}
+
+.ProsBox {
+    background-color: #6E0611;
+}
+
+.DemoUpdates {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DemoUpdates>div {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.updateModalText>div {
+    margin: 8px;
+}
+
+.followCont {
+    width: 100%;
+}
+
+.LDsource {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    padding: 6px;
+    width: 100%;
+}
+
+.FollowText {
+    color: grey;
+}
+
+.greyItemCont {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.FollowGreyItem {
+    background-color: #F7F7F7;
+    padding: 12px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.FollowBottInp {
+    width: 95%
+}
+
+#followDateDiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#followDvText {
+    margin-left: 14px;
+    color: grey;
+}
+
+.BoxDrops {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.WUC {
+    width: 100px;
+    height: 100px;
+}
+
+.FollowGreyItem {
+    cursor: pointer;
+}
+
+.FollowGreyItem.selected {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,70 @@
+.gantt {
+    border: 1px solid rgb(203 213 225);
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.gantt__lines {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    display: grid;
+    grid-template-columns: 5rem repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.gantt__lines div {
+    border-right: 1px solid rgb(203 213 225 / 0.4);
+}
+
+.gantt__period {
+    display: grid;
+    padding: 0.5rem 0;
+    grid-template-columns: 5rem repeat(5, 1fr);
+}
+
+.gantt__period div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.gantt__row {
+    align-items: center;
+    border-top: 1px solid rgb(203 213 225);
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    padding: 0.5rem 0;
+}
+
+.gantt__tasks {
+    display: grid;
+    grid-row-gap: 0.25rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gantt__assign {
+    padding: 0 0.25rem;
+}
+
+.gantt__task {
+    border-radius: 9999px;
+    height: 1rem;
+}
+
+.gantt__task--done {
+    background: rgb(74 222 128);
+}
+
+.gantt__task--todo {
+    background: rgb(96 165 250);
+}
+
+.gantt__task--overdue {
+    background: rgb(190 18 60);
+}

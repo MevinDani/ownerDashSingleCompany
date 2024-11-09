@@ -1,0 +1,225 @@
+.DateChangerWrapper {
+    background-color: #F3F3F3;
+    width: 100%;
+    background-color: #b5d8ff;
+    border-radius: 4px;
+    z-index: 5 !important;
+}
+
+.DateChangerCont {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    flex-direction: column;
+}
+
+.DateChangeHead {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.DateShowCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DateClose {
+    position: absolute;
+    left: 280px;
+}
+
+.DateClose2 {
+    margin-left: auto;
+}
+
+.DateClose:hover {
+    cursor: pointer;
+}
+
+.DateChangeControlBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.DayControlBox,
+.MonthControlBox,
+.YearControlBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 30%;
+    padding: 4px;
+}
+
+.DayControlBox:hover,
+.MonthControlBox:hover,
+.YearControlBox:hover {
+    cursor: pointer;
+}
+
+.DCBLeft,
+.DCBRight,
+.MCBLeft,
+.MCBRight,
+.YCBLeft,
+.YCBRight {
+    display: none;
+    color: gray;
+}
+
+.DCBLeft:hover,
+.DCBRight:hover,
+.MCBLeft:hover,
+.MCBRight:hover,
+.YCBLeft:hover,
+.YCBRight:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.DCBDayText {
+    color: gray;
+}
+
+.DCBDayText:hover {
+    color: black;
+}
+
+.DayControlBox.active {
+    background-color: white;
+}
+
+.DayControlBox.active>.DCBLeft {
+    display: block;
+}
+
+.DayControlBox.active>.DCBRight {
+    display: block;
+}
+
+.MonthControlBox.active {
+    background-color: white;
+}
+
+.MonthControlBox.active>.MCBLeft {
+    display: block;
+}
+
+.MonthControlBox.active>.MCBRight {
+    display: block;
+}
+
+.YearControlBox.active {
+    background-color: white;
+}
+
+.YearControlBox.active>.YCBLeft {
+    display: block;
+}
+
+.YearControlBox.active>.YCBRight {
+    display: block;
+}
+
+@media (max-width:1475px) {
+    .DateClose {
+        position: absolute;
+        left: 240px;
+    }
+}
+
+/* @media (max-width:1400px) {
+    .DateClose {
+        position: absolute;
+        left: 200px;
+    }
+} */
+
+@media (max-width:1350px) {
+    .DateClose {
+        position: absolute;
+        left: 240px;
+    }
+
+    .DayControlBox,
+    .MonthControlBox,
+    .YearControlBox {
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1319px) {
+    .DateClose {
+        position: absolute;
+        left: 225px;
+    }
+}
+
+@media (max-width:1255px) {
+    .DateClose {
+        position: absolute;
+        /* left: 340px; */
+    }
+}
+
+@media (max-width:904px) {
+    .DateClose {
+        position: absolute;
+        left: 300px;
+    }
+}
+
+@media (max-width:788px) {
+    .DateClose {
+        position: absolute;
+        left: 250px;
+    }
+}
+
+@media (max-width:761px) {
+    .DateClose {
+        position: absolute;
+        left: 550px;
+    }
+}
+
+@media (max-width:657px) {
+    .DateClose {
+        position: absolute;
+        left: 500px;
+    }
+}
+
+@media (max-width:600px) {
+    .DateClose {
+        position: absolute;
+        left: 450px;
+    }
+}
+
+@media (max-width:550px) {
+    .DateClose {
+        position: absolute;
+        left: 300px;
+    }
+}
+
+@media (max-width:480px) {
+    .DateClose {
+        position: absolute;
+        left: 320px;
+    }
+}
+
+@media (max-width:383px) {
+    .DateClose {
+        position: absolute;
+        left: 220px;
+    }
+}

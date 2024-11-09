@@ -1,0 +1,56 @@
+.pdfStatementCont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topHr {
+    color: red;
+}
+
+.statementHead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.StatementTopBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.STBoxLeft,
+.STBoxRight {
+    width: 48%;
+    border: 1px solid #242323;
+}
+
+.StbHead {
+    background-color: #242323;
+    color: white;
+    padding: 2px 8px;
+}
+
+.STBLeftSubDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+}
+
+.custPdf table thead tr th {
+    font-size: 14px;
+    background-color: #242323;
+    color: white;
+    text-align: left;
+}
+
+.custPdf table tbody tr td {
+    font-size: 16px;
+}
+
+.DownlaodButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,6 @@
+@media (max-width:701px) {
+    .GitListBadge {
+        margin-top: 8px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,42 @@
+.SupplierInfoRegistered {
+    padding: 4px;
+    color: black;
+    background-color: white;
+}
+
+.srchCont {
+    position: relative;
+}
+
+.srchTableCont {
+    /* position: absolute; */
+    top: 160px;
+    z-index: 5;
+    padding: 10px;
+    background-color: #d1d1d1;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.srchTableCont>.table {
+    box-shadow: -1px 1px 1px #d1d1d1;
+}
+
+.srchTableTr:hover {
+    cursor: pointer;
+    /* background-color: blue !important; */
+}
+
+.ViewCostCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewCostCont>div {
+    width: 50%;
+}
+
+.ItemTableCont {
+    max-height: 250px;
+    overflow-y: scroll;
+}

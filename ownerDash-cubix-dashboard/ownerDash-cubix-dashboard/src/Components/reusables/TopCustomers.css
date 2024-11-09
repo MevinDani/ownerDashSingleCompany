@@ -1,0 +1,90 @@
+.TopCustDate {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    color: #7F7F7F;
+}
+
+.DFMonthCont {
+    position: relative;
+}
+
+#topCustWrap {
+    padding: 0px;
+    height: 100% !important;
+    /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+}
+
+#tsdropitems {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tsdropcont {
+    margin-top: 0;
+    background-color: white;
+    z-index: 1;
+    padding: 8px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#TopCustHead {
+    font-size: 18px;
+}
+
+#dropDiv {
+    display: flex;
+    align-items: center;
+}
+
+.TSDropDropped,
+.TSDrop {
+    padding-bottom: 4px;
+}
+
+@media (max-width:960px) {
+    .TSDropCont {
+        width: 100%;
+    }
+
+    .TSDropItems {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #TopCustHead {
+        font-size: 14px;
+    }
+
+    .TSDropDown #tsdropcont {
+        font-size: 12px;
+    }
+}
+
+/* Default styles for larger screens */
+@media screen and (min-width: 481px) {
+    .recharts-text.recharts-cartesian-axis-tick-value {
+        font-size: 12px;
+        /* Adjust the font size as needed */
+    }
+}
+
+/* Media query for screens 480px and below */
+@media screen and (max-width: 480px) {
+    .recharts-text.recharts-cartesian-axis-tick-value {
+        font-size: 10px;
+        /* Adjust the font size as needed */
+    }
+
+    .TopCustDate .TSDaysText {
+        font-size: 14px;
+    }
+
+    #TopCustHead {
+        font-size: 18px;
+    }
+
+    /* Add more styles as needed for smaller screens */
+}

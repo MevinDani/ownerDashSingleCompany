@@ -1,0 +1,178 @@
+.chart {
+    width: 95%;
+}
+
+.css-wn5hww-MuiLineElement-root {
+    stroke: #df8a23;
+}
+
+.css-157y70i-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+.css-bu4lvu-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+.css-wxc1ro-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+.css-mxlm3n-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+.css-1bn05n9-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+.css-wn5hww-MuiLineElement-root {
+    stroke: #df8a23;
+}
+
+.css-4yuevs-MuiMarkElement-root {
+    stroke: #df8a23;
+}
+
+/* #lineGWrap {
+    width: max-content;
+}
+
+#lineGraph {
+    width: max-content;
+} */
+
+/* .recharts-legend-wrapper {
+    position: absolute !important;
+    width: 322px !important;
+    height: auto !important;
+    left: 31px !important;
+    bottom: 10px !important;
+} */
+
+#linegrph {
+    height: 100%;
+    /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+}
+
+#lineGraphBody {
+    width: max-content;
+    position: relative;
+    height: 100%;
+}
+
+#LgYearP {
+    /* width: 30%; */
+    display: flex;
+    /* background-color: #b8ffc3c0; */
+    border-radius: 4px;
+    align-items: center;
+}
+
+#totalSalesText {
+    font-size: 20px;
+    /* color: orange; */
+}
+
+.LgDefYear:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#LgYearP .DFDText:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.LineChart {
+    padding: 8px;
+}
+
+.TSDrop {
+    color: #7F7F7F;
+}
+
+.LineGraphDropDown {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    font-size: 15px;
+    color: #7F7F7F;
+}
+
+.LineGraphDropDownCont {
+    display: flex;
+    flex-direction: column;
+    /* Add more styling as needed */
+}
+
+.LineGraphDropDownText {
+    border-bottom: 1px solid #7F7F7F;
+}
+
+.LineGraphDropDownText:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#lineGraphBody {
+    width: 100%;
+}
+
+.recharts-wrapper {
+    width: 100%;
+}
+
+.custom-chart-container {
+    height: 420px;
+}
+
+/* .LineChart {
+    width: 500px;
+    overflow-x: scroll;
+} */
+
+@media (max-width:1200px) {
+    #lineGraphBody {
+        width: 100%;
+    }
+
+    .recharts-wrapper {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .custom-chart-container {
+        height: 300px;
+    }
+
+    #totalSalesText {
+        font-size: 18px;
+    }
+
+    #LgYearP {
+        width: 30%;
+    }
+
+    #LgYearP .DFDText {
+        font-size: 14px;
+    }
+
+    #LgYearP #LyearText {
+        font-size: 16px;
+    }
+
+    .LineGraphDropDownText {
+        font-size: 12px;
+    }
+
+    #LyearText {
+        width: 45%;
+    }
+
+    #DoughDropCont {
+        width: 45%;
+    }
+}

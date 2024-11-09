@@ -1,0 +1,102 @@
+.StaffDetWrapper {
+    width: 100%;
+}
+
+.StaffDetCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.StaffHeader {
+    width: 100%;
+    background-color: #19751c;
+    display: flex;
+    flex-direction: column;
+}
+
+.StaffDetTextCont {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 8px;
+}
+
+.StaffDetTextCont .leftArrow {
+    display: flex;
+    align-items: center;
+}
+
+.StaffDetText {
+    font-weight: bold;
+}
+
+.StaffNameText {
+    width: 20%;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* Add your custom styles for the tabs and active tab */
+.StaffTabsCont {
+    display: flex;
+    width: 100%;
+}
+
+.StaffDetails,
+.StaffAttendance,
+.StaffAssignment {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    width: 33%;
+    /* Default border color */
+}
+
+.activeTab {
+    border-bottom-color: #007bff;
+    /* Color for the active tab */
+    color: #007bff;
+    /* Text color for the active tab */
+}
+
+.StaffBottBox {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    background-color: #e4e4e4;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.BottBoxImg {
+    width: 50px;
+    height: 50px;
+}
+
+.BottBoxText {
+    font-size: 14px;
+}
+
+#taskDateTEXT {
+    font-size: 14PX;
+}
+
+#taskDateButton {
+    font-size: 14px;
+}
+
+.ModalButtonBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.LocBox,
+.TaskBox {
+    cursor: pointer;
+}

@@ -1,0 +1,189 @@
+.DelOContainer {
+    width: 100%;
+    background-color: aliceblue;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+
+.DelODateCont span {
+    margin: 24px;
+    font-size: 24px;
+}
+
+.DelODateCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 90%;
+}
+
+.DelODateInp {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.DelOInp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.DelOInp input {
+    height: 100%;
+}
+
+.DelOContainer label {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/* .labeStyle {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+} */
+
+
+.filter {
+    width: 90%;
+    margin: 6px;
+    display: flex;
+    justify-content: start;
+}
+
+
+.DlOtableCont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.DlOtableCont table {
+    width: 95%;
+    background-color: rgb(192, 226, 255);
+}
+
+.grpButton:hover {
+    background-color: #0056b3;
+}
+
+.DlOtableCont {
+    max-width: 100%;
+    overflow-x: scroll;
+    overflow-y: auto;
+    /* Add a border to the container */
+}
+
+
+.DlOtableCont table {
+    border-collapse: collapse;
+}
+
+.expandable {
+    display: table-cell;
+}
+
+.DloplusTd .fa-solid {
+    display: none;
+}
+
+.DloplusTd .newDrop {
+    display: none;
+}
+
+#numD {
+    text-align: center;
+}
+
+@media screen and (max-width:1124px) {
+    .DlOtableCont .hidden {
+        display: none;
+    }
+
+    .DloplusTd .fa-solid {
+        display: contents;
+    }
+
+    .DloplusTd .newDrop {
+        display: block;
+    }
+
+    .DloplusTd {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .DlOtableCont .hidden {
+        display: none;
+    }
+
+    .DloplusTd .fa-solid {
+        display: contents;
+    }
+
+    .DloplusTd {
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .DlOtableCont table {
+        display: block;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0 auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    } */
+
+    .DelOInp label {
+        font-size: medium;
+    }
+
+    .DelOInp input {
+        height: 20px;
+    }
+
+    .DelODateInp .grpButton {
+        height: 36px;
+        width: 63px;
+        margin-left: 10px;
+    }
+
+    .DelODateCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 95%;
+    }
+
+    .DelODateInp {
+        width: 100%;
+    }
+
+
+    th,
+    td {
+        min-width: 160px;
+    }
+
+}

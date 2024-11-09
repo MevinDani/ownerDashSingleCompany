@@ -1,0 +1,50 @@
+.SalesRetListHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SalesRetListInps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SalesRetListInps>div {
+    margin: 4px;
+}
+
+.SalesRetListButtons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.SalesRetListButtons>button {
+    width: 45%;
+    margin: 2px;
+}
+
+.SalesRetListBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width:1096px) {
+    .SalesRetListInps {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:701px) {
+    .SalesRetListHead {
+        flex-direction: column;
+    }
+
+    .SalesRetListButtons {
+        margin-top: 4px;
+    }
+}

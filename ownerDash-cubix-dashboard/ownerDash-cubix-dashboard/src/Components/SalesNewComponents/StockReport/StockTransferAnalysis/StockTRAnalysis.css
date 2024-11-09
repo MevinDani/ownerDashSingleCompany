@@ -1,0 +1,20 @@
+.STATopInpBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.STAOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.STARight {
+    background-color: white;
+}
+
+@media (max-width:450px) {
+    .STATopInpBox {
+        flex-direction: column;
+    }
+}

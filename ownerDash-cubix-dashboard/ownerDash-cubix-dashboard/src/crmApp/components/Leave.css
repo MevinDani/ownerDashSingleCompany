@@ -1,0 +1,33 @@
+.LeaveWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LeaveCont {
+    width: 85%;
+}
+
+.ExpenseText {
+    font-weight: bold;
+    text-align: left;
+}
+
+#leaveSave {
+    margin-top: 30px;
+}
+
+.example-custom-input {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.LeaveDateCont {
+    display: flex;
+    justify-content: space-between;
+}

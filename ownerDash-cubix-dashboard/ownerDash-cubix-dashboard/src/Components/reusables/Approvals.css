@@ -1,0 +1,86 @@
+.ApprovalWrapper {
+    display: flex;
+    /* background-color: white; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 12px;
+    background-color: #b5d8ff;
+}
+
+.ApprovalCont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+.ApprovalHead {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.ApprovalText {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #5454B5;
+    font-weight: bold;
+}
+
+.ApprovalClose {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.ApprovalBox {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: #ECECEC;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.AppBoxSubj {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.AppBoxBottCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.AppBoxDateCont {
+    display: flex;
+    align-items: center;
+}
+
+.AppBoxButtons {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.RejectButton {
+    background-color: #F3F3F3;
+    padding: 4px;
+}
+
+.ApproveButton {
+    background-color: #5454B5;
+    padding: 4px;
+    color: white;
+}
+
+@media (max-width:480px) {
+    .AppBoxButtons {
+        width: 40%;
+    }
+}

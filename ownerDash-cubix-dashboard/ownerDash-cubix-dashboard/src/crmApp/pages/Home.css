@@ -1,0 +1,177 @@
+.HomeWrapper {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.HomeCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.HomeTopGrad {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(0deg, white, #247B6C, black 95%) no-repeat;
+}
+
+.HomeHeadNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.HomeUserDetails {
+    color: white;
+}
+
+.HomeUserHi {
+    font-size: 12px;
+}
+
+.HomeUserCheck {
+    font-weight: bold;
+}
+
+.HomeUserRight {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.locImg {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.HomeDateLine {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.HomeTilesCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.HomeTileMonth {
+    color: white;
+    font-weight: bold;
+}
+
+.HomeTiles {
+    display: flex;
+    justify-content: center;
+}
+
+.Target,
+.Achieved,
+.Collection {
+    margin: 8px;
+    box-shadow: 8px 8px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* .TargetCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.TargetTop {
+    background-color: #FFFBC1;
+    padding: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.TargetBott {
+    background-color: #FFD965;
+    padding: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.AchievedTop {
+    background-color: #D5F9EF;
+    padding: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.AchievedBott {
+    background-color: #88C8B7;
+    padding: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.CollectionTop {
+    background-color: #FFE5E6;
+    padding: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.CollectionBott {
+    background-color: #FEB2B2;
+    padding: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.HomeOptionIconCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.optionImg {
+    width: 40px;
+    height: 40px;
+}
+
+
+.HOBag,
+.HOMoney,
+.HOList,
+.HOPerson {
+    cursor: pointer;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.HOBag.selected,
+.HOMoney.selected,
+.HOList.selected,
+.HOPerson.selected {
+    border-bottom-color: darkgreen;
+}
+
+.HomeOptionView {
+    margin-top: 18px;
+}
+
+.BottomClick {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+
+.RangeImg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

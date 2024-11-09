@@ -1,0 +1,72 @@
+.welcome-card {
+    background-color: white;
+    border-radius: 5px 30px;
+    border-right: 3px blueviolet solid;
+    height: max-content;
+}
+
+.img-welcome {
+    width: 110px;
+}
+
+.welcome-card p {
+    color: rgb(110, 109, 109);
+    font-size: 18px;
+}
+
+.btn-admin {
+    border: 0;
+    border-radius: 2px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: rgb(156, 57, 255);
+}
+
+/* cardone */
+.card-one {
+    border-radius: 7px 5px;
+    background-color: rgb(236, 241, 245);
+    height: 150px;
+}
+
+.table-head {
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+}
+
+.card-one table td {
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+}
+
+/* card-three */
+/* .card-dashboard { */
+/* border-bottom: 5px solid rgb(100, 22, 173) !important; */
+/* border-radius: 10px 5px !important; */
+/* width: max-content; */
+/* } */
+
+.card-dashboard h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(100, 22, 173);
+
+}
+
+.card-dashboard p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(64, 64, 90);
+}
+
+
+/* .card-dashboard img {
+    width: 80%;
+} */
+
+/* .CashBalance {
+    width: 100%;
+} */

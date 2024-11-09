@@ -1,0 +1,745 @@
+.DashWrapper {
+    background-color: #F1F1FB;
+    /* height: 90vh;
+    overflow-y: scroll; */
+    /* min-height: 100vh; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideParent {
+    position: relative;
+}
+
+.dashSidePanel {
+    position: absolute;
+    left: 0;
+}
+
+
+.DashCont {
+    width: 100%;
+    background-color: #F1F1FB;
+    padding: 4px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.DashNavCont {
+    width: 100%;
+    background-color: white;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.DashNavLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DashNavIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #549BFF;
+}
+
+
+.DashNavIconPng {
+    height: 60px;
+    width: 180px;
+}
+
+.DashIconPng {
+    height: 60px;
+    width: 60px;
+}
+
+.DashSide {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    border-right: 1px solid gray;
+    background-color: #636D79;
+    background-color: #2f6690;
+}
+
+.DashSidePng {
+    height: 25px;
+    width: 25px;
+}
+
+.DashMid {
+    width: 95%;
+}
+
+.DashLogo {
+    height: 70px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.DashLogoPng {
+    height: 70px;
+    width: 60px;
+}
+
+.DashItemsCont {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.DashSideItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 25px;
+}
+
+.DashSideItems:hover {
+    cursor: pointer;
+}
+
+.DashSideItems.selected {
+    border-right: 4px solid #549BFF;
+}
+
+/* .DashMid {
+
+} */
+
+.DashTopBanner {
+    height: 50px;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #549BFF;
+    padding: 8px;
+}
+
+.DashDataCont {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 24px;
+}
+
+/* cake */
+.DashDataCakeCont {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 580px;
+    margin-bottom: 12px;
+}
+
+.DashDataCake1,
+.DashDataCake2,
+.DashDataCake3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DashDataCake1 {
+    width: 25%;
+}
+
+.DashDataCake2 {
+    width: 27%;
+}
+
+.DashDataCake3 {
+    width: 46%;
+}
+
+.DashBranchSales1 {
+    height: 74.5%;
+}
+
+.DashTopCust1 {
+    height: 74.5%;
+}
+
+.DashPayables1 {
+    height: 23%;
+}
+
+.DashDataTopCont {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    /* height: 200px; */
+}
+
+.DashTotalSales {
+    width: 25%;
+}
+
+.DashCashBalance {
+    width: 25%;
+}
+
+.DashPayables {
+    width: 44%;
+}
+
+.DashDataMid1Cont {
+    height: 450px;
+}
+
+.DashDataMid1Cont,
+.DashDataBottCont,
+.DashDataMid2Cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+
+.DashBranchSales {
+    width: 25%;
+    height: 100%;
+}
+
+
+.DashPdcCont {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    justify-content: space-around;
+    margin-right: 68px;
+}
+
+.DashTopCust {
+    width: 40%;
+}
+
+.DashYearSales,
+.DashTopGroup,
+.DashTopGrpCodes {
+    width: 35%;
+}
+
+.DashYearSales {
+    height: 100%;
+}
+
+
+.DashIssuedPdc,
+.DashPendPdc {
+    width: 30%;
+}
+
+.DashNotification {
+    width: 48%;
+    height: 100%;
+}
+
+.DebCredCont,
+.CredAgeCont {
+    width: 49%;
+}
+
+.DashNavRight {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DashNavRight1 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.AdminSalesLink {
+    display: flex;
+    align-items: center;
+}
+
+.AdminSalesLink>span {
+    padding: 2px 6px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.NotificationBell,
+.MenuIcon {
+    display: flex;
+    align-items: center;
+}
+
+.MenuIcon:hover {
+    cursor: pointer;
+}
+
+/* .DashYearSales,
+.DashNotification {
+    width: 40%;
+}
+
+.DashTopGroup,
+.DashTopGrpCodes {
+    width: 40%;
+} */
+.DashDataTopCont,
+.DashDataMid2LapCont,
+.DashDataBottLapCont,
+.DashDataTopLapCont1,
+.DashDataMid1ContLap,
+.DashDataLineMobCont,
+.DashDataTGPSMobCont,
+.DashDataTGPCodeSMobCont,
+.DashDataNotMobCont,
+.DashDataTsMobCont,
+.DashDataMidContMob,
+.DashDataBranchContMob,
+.DashDataMid1Cont {
+    display: none;
+}
+
+.AppDashCont {
+    display: flex;
+    width: 45%;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 12px;
+}
+
+.NotificationBell:hover {
+    cursor: pointer;
+}
+
+.m3divscont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 74%;
+}
+
+.mid3divs {
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DashIconPngProfile {
+    width: 25px;
+    height: 25px;
+}
+
+#navUserCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navUserDrop {
+    position: absolute;
+    top: 75px;
+    right: 5px;
+    padding: 8px;
+    background-color: white;
+}
+
+.navUserDrop:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.DashNavRight {
+    position: relative;
+}
+
+.MobUserDrop {
+    position: absolute;
+    top: 48px;
+    right: 5px;
+    padding: 8px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MobUserLogOut {
+    padding: 8px;
+}
+
+.MobUserLogOut:hover {
+    background-color: gainsboro;
+}
+
+.DashTopCustLap2 {
+    display: none;
+}
+
+.DashDataTopSalesPerson {
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.TopSalesPerson {
+    display: flex;
+    width: 50%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.DashTopCustLap3 {
+    height: 447px;
+    overflow-y: scroll;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#DashNavMob>.DashNavRight {
+    width: 10%;
+}
+
+/* .mid3divs>div {
+    flex: 1;
+} */
+
+@media only screen and (max-width: 1500px) {
+
+    .DashDataMid2LapCont,
+    .DashDataBottLapCont {
+        display: block;
+    }
+
+    .DashDataMid2LapCont,
+    .DashDataBottLapCont {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .DashYearSalesLap,
+    .DashTopGroupLap {
+        width: 50%;
+    }
+
+    .DashNotificationLap,
+    .DashTopGrpCodesLap {
+        width: 50%;
+    }
+
+    .DashDebCredLap {
+        width: 50%;
+    }
+
+    .DashCredAgeLap {
+        width: 48.9%;
+    }
+
+    .DashDataMid2Cont,
+    .DashDataBottCont {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+
+    .AppDashCont {
+        width: 100%;
+        top: 60px;
+        right: 0;
+    }
+
+    .DashPayables,
+    .DashTopCust,
+    .DashDataCakeCont {
+        display: none;
+    }
+
+    .DashTopCustLap2 {
+        display: block;
+    }
+
+    .DashTopCustLap3 {
+        display: none;
+    }
+
+    .DashTotalSales,
+    .DashBranchSales {
+        width: 48%;
+    }
+
+    .DashCashBalance,
+    .DashPdcCont {
+        width: 48%;
+    }
+
+    .DashDataTopCont {
+        display: flex;
+        height: 160px;
+    }
+
+    .DashTotalSales,
+    .DashCashBalance {
+        height: 100%;
+    }
+
+    .DashDataMid1Cont {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .DashDataTopLapCont1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .DashPdcCont {
+        margin-right: 0;
+    }
+
+    .DashTopCustLap {
+        width: 80%;
+    }
+
+    .DashPaybleContLap {
+        width: 60%;
+    }
+
+    .DashDataTopSalesPerson {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .DashYearSalesLap,
+    .DashTopGroupLap {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:1036px) {
+    .DashPaybleContLap {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .DashSideBar {
+        width: 4%;
+    }
+
+    .DashSideBar>div>div>span {
+        display: none;
+    }
+
+    .DashDataLineMobCont,
+    .DashDataTGPSMobCont,
+    .DashDataTGPCodeSMobCont,
+    .DashDataNotMobCont {
+        display: flex;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .DashDataLineMob,
+    .DashDataTGPSMob,
+    .DashDataTGPCodeSMob,
+    .DashDataNotMob,
+    .DashTopCustLap {
+        width: 100%;
+    }
+
+    .DashDataMid2Cont,
+    .DashDataBottCont,
+    .DashDataMid2LapCont,
+    .DashDataBottLapCont,
+    .DashDataTopSalesPerson {
+        display: none;
+    }
+
+
+    .DashDataMid1ContLap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+
+    /* .DashSideBar {
+        display: none;
+    } */
+
+
+    .DashDataTopCont,
+    .DashDataTopLapCont1,
+    .DashDataMid1Cont,
+    .DashDataMid2Cont,
+    .DashDataBottCont,
+    .DashDataMid2LapCont {
+        display: none;
+    }
+
+    .DashSide {
+        display: none;
+    }
+
+    .DashDataTsMobCont {
+        display: flex;
+        width: 100%;
+        height: 120px;
+        justify-content: space;
+        margin-bottom: 12px;
+    }
+
+    .DashDataTsMob {
+        width: 100%;
+    }
+
+    .DashDataMidContMob {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .DashDataPayMobCont {
+        width: 25%;
+    }
+
+    .DashDataMidItemsMobCont {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* .DashDataItemsMob {
+        height: 100%;
+    } */
+
+    .DashDataBranchContMob {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .DashDataBranchMob {
+        width: 100%;
+    }
+
+    .DashCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .DashDataMid1ContLap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+
+    .DashNavCont,
+    .DashDataCakeCont {
+        display: none;
+    }
+
+    #DashNavMob {
+        display: flex;
+    }
+
+    #DashNavMob .DashNavIcon .DashNavIconPng {
+        height: 40px;
+        width: 100px;
+    }
+
+    #DashNavMob .DashIconPng {
+        height: 40px;
+        width: 40px;
+    }
+
+    .DashTopBanner {
+        font-size: 20px;
+    }
+
+    .DashCont {
+        padding: 0;
+        width: 100%;
+    }
+
+    .DashDataPayMobCont {
+        width: 30%;
+    }
+
+    .DashDataMidItemsMobCont {
+        width: 65%;
+    }
+}
+
+@media (max-width:688px) {
+    .DashSideBar {
+        background-color: white;
+        height: 380vh;
+        width: 10%;
+    }
+}
+
+@media (max-width:480px) {
+    .AppDashCont {
+        width: 100%;
+        top: 60px;
+        right: 0;
+    }
+}
+
+@media (max-width:400px) {
+    .DashDataCont {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

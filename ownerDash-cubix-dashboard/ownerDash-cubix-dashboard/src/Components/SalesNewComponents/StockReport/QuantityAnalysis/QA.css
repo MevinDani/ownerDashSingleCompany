@@ -1,0 +1,41 @@
+.QATopInp {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    flex-direction: column;
+}
+
+.QAInpBoxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.QAdirectPrinter {
+    display: flex;
+    justify-content: center;
+    /* background-color: #d6e6ff; */
+}
+
+@media (max-width:1080px) {
+    .QATopInp {
+        width: 98%;
+        margin-top: 8px !important;
+    }
+
+    .QATopOptions {
+        width: 98%;
+        margin-top: 8px !important;
+    }
+
+    .QAButtons {
+        width: 98%;
+        margin-top: 8px !important;
+    }
+}
+
+@media (max-width:504px) {
+    .SICashCheck {
+        flex-direction: column;
+    }
+}

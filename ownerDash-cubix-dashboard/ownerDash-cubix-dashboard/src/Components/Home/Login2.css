@@ -1,0 +1,622 @@
+.login-fg {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.login-fg .form-container {
+    color: #ccc;
+    position: relative
+}
+
+.login-fg .login {
+    min-height: 100vh;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px
+}
+
+.login-fg .login-section {
+    max-width: 370px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%
+}
+
+.login-fg .form-fg {
+    width: 100%;
+    text-align: center
+}
+
+.login-fg .form-container .form-group {
+    margin-bottom: 25px
+}
+
+.login-fg .form-container .form-fg {
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.login-fg .form-container .input-text {
+    font-size: 14px;
+    outline: none;
+    color: #616161;
+    border-radius: 1px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.login-fg .form-container img {
+    margin-bottom: 5px;
+    height: 40px
+}
+
+.login-fg .form-container .form-fg input {
+    float: left;
+    width: 100%;
+    padding: 11px 35px 11px 25px;
+    /* border-radius: 50px */
+}
+
+.login-fg .form-container .form-fg i {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    font-size: 19px;
+    color: #616161
+}
+
+.login-fg .form-container label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.login-fg .form-container .forgot {
+    margin: 0;
+    line-height: 45px;
+    color: #535353;
+    font-size: 15px;
+    float: right
+}
+
+.login-fg .bg {
+    background: rgba(0, 0, 0, 0.04) repeat;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    z-index: 999;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px
+}
+
+.login-fg .info {
+    margin-top: 50px;
+}
+
+.login-fg .info h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 0px #000
+}
+
+.login-fg .info {
+    text-align: center
+}
+
+.login-fg .info p {
+    margin-bottom: 0;
+    /* color: #fff; */
+    line-height: 28px;
+    z-index: 1;
+    /* text-shadow: 1px 1px #000 */
+}
+
+.login-fg .form-container .btn-md {
+    cursor: pointer;
+    padding: 10px 30px 9px;
+    height: 45px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+    color: #d6d6d6
+}
+
+.login-fg .form-container p {
+    margin: 0;
+    color: #616161
+}
+
+.login-fg .form-container p a {
+    color: #616161
+}
+
+.login-fg .form-container button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color
+}
+
+.login-fg .form-container .btn-fg.focus,
+.btn-fg:focus {
+    box-shadow: none
+}
+
+.login-fg .form-container .btn-fg {
+    background: #0f96f9;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.login-fg .form-container .btn-fg:hover {
+    background: #108ae4
+}
+
+.login-fg .logo a {
+    font-weight: 700;
+    color: #333;
+    font-size: 39px;
+    text-shadow: 1px 0px #000
+}
+
+.login-fg .form-container .checkbox {
+    margin-bottom: 25px;
+    font-size: 14px
+}
+
+.login-fg .form-container .form-check {
+    float: left;
+    margin-bottom: 0
+}
+
+.login-fg .form-container .form-check a {
+    color: #d6d6d6;
+    float: right
+}
+
+.login-fg .form-container .form-check-input {
+    position: absolute;
+    margin-left: 0
+}
+
+.login-fg .form-container .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    margin-left: -25px;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.login-fg .form-container .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #616161
+}
+
+.login-fg .form-container .checkbox-fg input[type="checkbox"]:checked+label::before {
+    color: #fff;
+    background: #0f96f9
+}
+
+.login-fg .form-container input[type=checkbox]:checked+label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    font-size: 14px;
+    content: "\2713";
+    line-height: 17px
+}
+
+.login-fg .form-container input[type=checkbox],
+input[type=radio] {
+    margin-top: 4px
+}
+
+.login-fg .form-container .checkbox a {
+    font-size: 14px;
+    color: #616161;
+    float: right;
+    margin-left: 3px
+}
+
+.login-fg .login-section h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #505050
+}
+
+.login-fg .login-section p {
+    margin: 25px 0 0;
+    font-size: 15px;
+    color: #616161
+}
+
+.login-fg .login-section p a {
+    color: #616161
+}
+
+.login-fg .login-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.login-fg .login-section .social li {
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+.login-fg .login-section .social li a {
+    font-size: 12px;
+    font-weight: 600;
+    width: 120px;
+    margin: 2px 0 3px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.login-fg .login-section .social li a i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    float: left;
+    color: #fff;
+    border-radius: 20px
+}
+
+.login-fg .login-section .social li a span {
+    margin-right: 7px
+}
+
+.login-fg .login-section .or-login {
+    float: left;
+    width: 100%;
+    margin: 20px 0 25px;
+    text-align: center;
+    position: relative
+}
+
+.login-fg .login-section .or-login::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 1px;
+    background: #d8dcdc;
+    content: ""
+}
+
+.login-fg .login-section .or-login>span {
+    width: auto;
+    float: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    z-index: 1;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 13px;
+    color: #616161;
+    text-transform: capitalize
+}
+
+.login-fg .facebook-i {
+    background: #4867aa;
+    color: #fff
+}
+
+.login-fg .twitter-i {
+    background: #3CF;
+    color: #fff
+}
+
+.login-fg .google-i {
+    background: #db4437;
+    color: #fff
+}
+
+.login-fg .facebook {
+    color: #4867aa
+}
+
+.login-fg .twitter {
+    color: #3CF
+}
+
+.login-fg .google {
+    color: #db4437
+}
+
+/* my styles */
+
+.info {
+    height: 15%;
+}
+
+.leftImgCont {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    /* border-radius: 100%; */
+}
+
+.leftImgCont .leftImg {
+    border-radius: 5%;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.leftImgCont .leftblob {
+    border-radius: 10%;
+    width: 100%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+.btn-Login {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #51BE78;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+}
+
+.cbx-bot-bann {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leftblob {
+    /* Add your styles for laptops and PCs here */
+    /* For example: */
+    height: 100%;
+    width: 100%;
+}
+
+.cmpnyListCard:hover {
+    background-color: rgb(255, 212, 212);
+}
+
+.form-container .form-fg #eyePass {
+    width: 20%;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}
+
+.cmnyListTableCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cmpnyListCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    padding: 8px 4px;
+    cursor: pointer;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+
+.cmpnyListCard>.validated {
+    color: #26cf61;
+}
+
+.cmpnyListCard>.not-validated {
+    color: rgb(255, 90, 90);
+}
+
+.cmnyListTableCont>.table-container>table>thead>tr>th {
+    font-size: 16px;
+}
+
+.cmnyListTableCont>.table-container>table>tbody>tr:hover {
+    cursor: pointer;
+    background-color: #3CF !important;
+}
+
+.cmnyListTableCont>.table-container>table>tbody>tr:hover td {
+    background-color: rgb(220, 246, 255);
+    /* Background color for all td elements within the hovered tr */
+}
+
+
+.cmnyListTableCont>.table-container>table>tbody>tr>td {
+    font-size: 15px;
+}
+
+.cmnyListTableCont>.table-container>table>tbody>tr>.validated {
+    color: #26cf61;
+}
+
+.cmnyListTableCont>.table-container>table>tbody>tr>.not-validated {
+    color: rgb(255, 90, 90);
+}
+
+.cmnyListTableCont {
+    overflow-x: auto;
+    /* Horizontal scroll will appear if needed */
+    max-width: 100%;
+    /* Ensure the table does not overflow its container */
+    padding-bottom: 15px;
+    overflow-y: auto;
+    /* Vertical scroll will appear if needed */
+    max-height: 400px;
+    /* Set a max height to limit the height of the table */
+    overflow-x: auto;
+    width: 100%;
+    /* Add some bottom padding to accommodate the horizontal scrollbar */
+}
+
+.cmnyListTableCont {
+    overflow-x: auto;
+    /* Horizontal scroll will appear if needed */
+    max-width: 100%;
+    /* Ensure the table container does not overflow its parent container */
+    padding-bottom: 15px;
+    /* Add some bottom padding to accommodate the horizontal scrollbar */
+}
+
+.table-container {
+    overflow-y: auto;
+    /* Vertical scroll will appear if needed */
+    max-height: 400px;
+    /* Set a max height to limit the height of the table */
+    overflow-x: auto;
+    /* Horizontal scroll will appear if needed */
+    width: 100%;
+    /* Ensure the table container takes up the full width */
+}
+
+.addNewCmp {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 8px 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.addNewCmpText {
+    color: #52B788;
+    width: 75%;
+    padding: 4px 0px;
+}
+
+.addNewCmpIcon {
+    background-color: #52B788;
+    color: white;
+    width: 25%;
+    padding: 4px 0px;
+}
+
+.addNewCmp:hover {
+    box-shadow: 0 0 5px #52B788;
+}
+
+
+@media (max-width: 1200px) {
+    .login-fg .info h1 {
+        font-size: 45px
+    }
+}
+
+@media (max-width: 992px) {
+    .login-fg .bg {
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+
+    #imgContLogin {
+        display: none;
+    }
+
+    .login-fg .login-section .social li a {
+        width: 100px
+    }
+
+    .login-fg .logo a {
+        font-size: 26px;
+    }
+
+    .leftImgCont {
+        display: none !important;
+    }
+
+    .info {
+        height: 50%;
+        margin-top: 0;
+    }
+
+    .cmnyListTableCont {
+        overflow-x: auto;
+        /* Horizontal scroll will appear if needed */
+        width: 100%;
+        /* Ensure the table does not overflow its container */
+        padding-bottom: 15px;
+        overflow-y: auto;
+        /* Vertical scroll will appear if needed */
+        max-height: 400px;
+        /* Set a max height to limit the height of the table */
+        overflow-x: auto;
+        width: 100%;
+        /* Add some bottom padding to accommodate the horizontal scrollbar */
+    }
+
+    /* #imgContLogin {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .imgContLogin {
+        height: 40%;
+    } */
+}
+
+@media (max-width: 385px) {
+    .form-container .form-fg #eyePass {
+        width: 20%;
+        position: absolute;
+        top: 15px;
+        left: 240px;
+        font-size: 12px;
+        color: #616161;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-height: 1000px) {
+
+    /* Adjust the styles for laptops and PCs with a minimum height of 600px */
+    .leftblob {
+        /* Add your styles for laptops and PCs here */
+        /* For example: */
+        height: 112%;
+    }
+}

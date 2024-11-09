@@ -1,0 +1,45 @@
+.ApprovedLeavesWrapper {
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* width: 300px; */
+    padding: 8px;
+    /* height: 100%; */
+}
+
+.ApprovedLeavesCont {
+    width: 100%;
+}
+
+.ApprovedLeavesHead {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid red;
+}
+
+.ApprovedLeavesCont>table>tbody {
+    font-size: 14px;
+}
+
+.LRQApproved {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #D7FDD4;
+    color: #0C9A02;
+}
+
+.LRQPending {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #FEF4E1;
+    color: #DC8D02;
+}
+
+.LRQRejected {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #FFEBEB;
+    color: #DE0F0F;
+}

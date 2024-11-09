@@ -1,0 +1,819 @@
+.TSSaleswrapper {
+    /* background-color: rgb(138, 232, 255);
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 12px; */
+    /* background: url('../../images/sales2.png'); */
+    /* background-size: 10%; */
+    /* background-repeat: no-repeat; */
+    /* backdrop-filter: blur(20px); */
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+.TSSaleswrapper {
+    position: relative;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    backdrop-filter: blur(20px);
+}
+
+/* .DateChangerSalesBox {
+    position: absolute;
+    top: -26px;
+    width: 100%;
+} */
+
+.DateChangerSalesBox {
+    position: absolute;
+    top: -27px;
+    left: -61px;
+    width: 102%;
+}
+
+.TSSaleswrapper::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    /* left: 20px; */
+    width: 100%;
+    height: 100%;
+    background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+    /* Replace 'your-image-url.jpg' with your image URL */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* .TSCont {
+    width: 40%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px;
+} */
+
+.TSMAINDROP {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.TSDropCont {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.TSDropItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    /* padding-right: 8px;
+    padding-top: 8px; */
+}
+
+.TsSalesText {
+    width: 51%;
+    color: #2B861C;
+    font-size: 20px;
+}
+
+.TSDropItems .TSDText {
+    font-size: 26px;
+    color: #7F7F7F;
+    border: none;
+}
+
+
+.TSDropItems .TSDText .TSList {
+    font-size: 20px;
+    color: #7F7F7F;
+    border: none;
+}
+
+.TSDropItems .TSDText .TSList:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.TSDropDown {
+    font-size: 20px;
+    color: #7F7F7F;
+    text-align: end;
+    width: 30%;
+}
+
+/* .TSDropDownCont {
+    padding-left: 30px;
+} */
+
+.TSDropDownText {
+    border-bottom: 1px solid #7F7F7F;
+}
+
+.TSDropDownText:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.TSDropItems .fa-solid {
+    padding-bottom: 12px;
+}
+
+.TSSalesCont {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    /* position: relative; */
+    margin-bottom: 14px;
+}
+
+.TSSalesItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 60%;
+    /* padding-left: 10%; */
+}
+
+.TSSalesItems .TSText {
+    font-size: 32px;
+    color: #107F6A;
+}
+
+.TSDropItems .TSDText:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.TSDrop:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.TSSalesItems .TSNum {
+    font-size: 38px;
+    font-weight: bold;
+    color: #107F6A;
+}
+
+.TSSalesButton {
+    padding: 15px 42px;
+    background-color: #2FB69D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.TSSalesButton:hover {
+    background-color: #13e6bf;
+    /* Darker blue color on hover */
+}
+
+.TSMAINDROP {
+    position: relative;
+}
+
+.TSDropDown {
+    position: absolute;
+    top: 100%;
+    left: 100;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    width: 40%;
+    background-color: white;
+    /* Add a background color to dropdown for visibility */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for separation */
+}
+
+/* modal styles */
+.salesModelCont {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #FFFFFF;
+}
+
+.salesDeptNo,
+.salesDeptName,
+.salesName {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.salesDeptNoText,
+.salesDeptNameText,
+.salesNameText {
+    color: #107F6A;
+    font-weight: bold;
+}
+
+.salesDeptNoNum,
+.salesDeptNameNum,
+.salesNameNum {
+    color: #FF6A32;
+    font-weight: bold;
+}
+
+/* sales small view */
+.TSCont {
+    width: 100%;
+    /* Adjust width for mobile devices */
+    height: auto;
+    /* padding: 22px; */
+    /* Allow height to be flexible for mobile devices */
+}
+
+.TSDropCont .TSDropItems .TSDText {
+    padding-left: 8px;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+.TSDropItems {
+    width: 100%;
+    /* Adjust width for mobile devices */
+    /* padding-right: 22px; */
+    /* Adjust padding if needed */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.TSDropItems .TSDText {
+    font-size: 20px;
+    /* Adjust font size for mobile devices */
+}
+
+.TSDropItems .fa-solid {
+    margin-left: 8px;
+}
+
+.TSDropDownCont .TSDropDownText {
+    font-size: 15px;
+}
+
+.TSDropDownCont {
+    margin-top: 8px;
+    width: 94%;
+}
+
+.TSSalesItems {
+    width: 100%;
+    /* Adjust width for mobile devices */
+    padding-left: 2%;
+    /* Adjust padding if needed */
+}
+
+.TSSalesItems .TSText {
+    font-size: 24px;
+    /* Adjust font size for mobile devices */
+}
+
+.TSSalesItems .TSNum {
+    font-size: 28px;
+    /* Adjust font size for mobile devices */
+}
+
+.TSSalesButton {
+    font-size: 18px;
+    /* Adjust font size for mobile devices */
+    margin-top: 8px;
+    /* Adjust margin-top for mobile devices */
+}
+
+.TSDropDropped {
+    color: #000000;
+}
+
+/* .TSDaysView {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #7F7F7F;
+    margin-top: 20px;
+} */
+
+.TSDaysView {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    color: #7F7F7F;
+    margin-top: 20px;
+}
+
+.TSDropDown {
+    z-index: 1;
+}
+
+.FaMinus {
+    margin-right: 8px;
+}
+
+.FaPlus {
+    margin-left: 8px;
+}
+
+.tdspan {
+    display: flex;
+    /* background-color: #b8ffc3c0; */
+    border-radius: 4px;
+    align-items: center;
+}
+
+#eyeSales {
+    display: flex;
+    justify-content: center;
+    /* background-color: #caf0f8; */
+    border-radius: 150px;
+    padding: 6px;
+    margin-left: 8px;
+}
+
+#salesTopBanner {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* #PlusCont {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* @media (max-width:1250px) {
+    .TSDaysView {
+        position: absolute;
+        bottom: -25px;
+        right: 0;
+        color: #7F7F7F;
+        margin-top: 20px;
+    }
+} */
+
+#TSTodayClick {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.MuiBox-root.css-1qepmlw {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.BoxSales {
+    text-align: right;
+}
+
+@media (max-width:2218px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -44px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1950px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -46px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1900px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -46px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1490px) and (min-width:1250px) {
+    .TsSalesText {
+        font-size: 20px;
+    }
+
+    .DateChangerSalesBox {
+        position: absolute;
+        top: -27px;
+        left: -61px;
+        width: 102%;
+    }
+
+}
+
+
+@media (max-width:1300px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -52px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1275px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -52px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1250px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -39px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1230px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -41px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1111px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -43px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -45px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width:920px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -48px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+}
+
+
+@media (max-width:1157px) {
+    .TSDropDown {
+        width: 45%;
+    }
+}
+
+@media (max-width:1036px) {
+    /* .TSDropDown {
+        width: 50%;
+    } */
+
+    .TSDropItems .TSDText {
+        font-size: 22px;
+        /* Adjust font size for tablets */
+    }
+}
+
+/* For Tablets (e.g., iPad) */
+@media (max-width: 960px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -27px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .TSCont {
+        width: 100%;
+        /* Adjust width for tablets */
+        height: auto;
+        /* Adjust height if needed */
+    }
+
+    .TSDropItems {
+        width: 60%;
+        /* Adjust width for tablets */
+        /* padding-right: 20px; */
+        /* Adjust padding if needed */
+        padding: 0px 0px 0px 0px;
+    }
+
+    .TsSalesText {
+        width: 40%;
+    }
+
+    .TSDropItems .TSDText {
+        font-size: 18px;
+        /* Adjust font size for tablets */
+    }
+
+    .TSSalesItems .TSText {
+        font-size: 18px;
+        /* Adjust font size for tablets */
+    }
+
+    .TSSalesItems .TSNum {
+        font-size: 20px;
+        /* Adjust font size for tablets */
+    }
+
+    .TSSalesButton {
+        font-size: 20px;
+        /* Adjust font size for tablets */
+    }
+
+    .TSDropDownCont .TSDropDownText {
+        font-size: 14px;
+    }
+
+    /* .TSDaysView {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        color: #7F7F7F;
+        margin-top: 20px;
+    } */
+
+    .TSDaysView {
+        position: absolute;
+        top: -45px;
+        left: 0;
+        color: #7F7F7F;
+        margin-top: 20px;
+    }
+
+    /* .TSDaysView {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #7F7F7F;
+        margin-top: 20px;
+    } */
+
+    .TsSalesText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:604px) {
+    .DateChangerSalesBox {
+        position: absolute;
+        top: -82px;
+        left: -5px;
+        width: 102%;
+    }
+}
+
+@media (max-width:670px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -33px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:510px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -36px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .TSSaleswrapper::before {
+        content: "";
+        position: absolute;
+        bottom: -36px;
+        /* left: 20px; */
+        width: 100%;
+        height: 100%;
+        background: url('../../images/total_sale_bg_svg_file.svg') center/cover;
+        /* Replace 'your-image-url.jpg' with your image URL */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .TsSalesText {
+        font-size: 18px;
+    }
+
+    .TSDropItems {
+        width: 80%;
+    }
+
+    .TSDropItems .TSDText {
+        font-size: 14px;
+        /* Adjust font size for tablets */
+    }
+
+    .TSDropDownCont .TSDropDownText {
+        font-size: 12px;
+    }
+
+    .TSDaysView {
+        font-size: 12px;
+    }
+
+    .TSList {
+        font-size: 14px !important;
+    }
+
+    .TSSaleswrapper::before {
+        bottom: -44px;
+    }
+
+    .TSSalesItems .TSNum {
+        font-size: 24px;
+        /* Adjust font size for tablets */
+    }
+}
+
+
+/* For Mobile Devices (e.g., iPhone) */
+/* @media (max-width: 480px) {
+    .TSCont {
+        width: 80%;
+        height: auto;
+        padding: 22px;
+    }
+
+    .TSDropItems {
+        width: 100%;
+        padding-right: 22px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .TSDropItems .TSDText {
+        font-size: 20px;
+    }
+
+    .TSDropItems .fa-solid {
+        margin-left: 8px;
+    }
+
+    .TSDropDownCont .TSDropDownText {
+        font-size: 18px;
+    }
+
+    .TSDropDownCont {
+        padding-left: 24px;
+        width: 80%;
+    }
+
+    .TSSalesItems {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .TSSalesItems .TSText {
+        font-size: 24px;
+    }
+
+    .TSSalesItems .TSNum {
+        font-size: 28px;
+    }
+
+    .TSSalesButton {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+} */

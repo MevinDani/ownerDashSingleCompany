@@ -1,0 +1,96 @@
+#cashTable .table {
+    font-size: 22px;
+}
+
+#cashTable td {
+    font-size: 16px;
+    color: #5e5d5d;
+}
+
+#loopTd {
+    font-size: 18px;
+}
+
+#deptSales {
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* overflow-y: scroll; */
+    /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); */
+    /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
+}
+
+.DateChangerDeptSalesBox {
+    /* position: absolute; */
+    top: -85px;
+    width: 100%;
+}
+
+#BranchDrop {
+    background-color: white;
+    z-index: 1;
+    padding: 8px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#BranchTopView {
+    display: flex;
+    justify-content: space-between;
+}
+
+#branchSalesHead {
+    color: orange;
+}
+
+#deptSalesTopBan {
+    display: flex;
+    /* background-color: #b8ffc3c0; */
+    border-radius: 4px;
+    align-items: center;
+}
+
+.TSDaysText {
+    font-size: 20px;
+}
+
+#deptSales>tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none;
+}
+
+
+@media only screen and (max-width:960px) {
+    #BranchTopView {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Media query for screens 760px and below */
+@media screen and (max-width: 760px) {
+    #deptSales .card-dashboard {
+        font-size: 14px;
+    }
+
+    .TSDaysText {
+        font-size: 18px !important;
+    }
+
+    #deptSales .TSDText {
+        font-size: 14px;
+    }
+
+    #branchSalesHead {
+        font-size: 14px;
+    }
+
+    #deptSales #loopTd {
+        font-size: 14px;
+    }
+}

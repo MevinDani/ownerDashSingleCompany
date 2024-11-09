@@ -1,0 +1,106 @@
+.KanBanWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    width: 100%;
+}
+
+.KanBanCont {
+    width: 100%;
+    display: grid;
+    gap: 0.8em;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(120, 1fr);
+    grid-auto-flow: dense;
+    overflow-y: scroll;
+}
+
+.KanBan {
+    grid-column: span 20;
+    max-height: 350px;
+    overflow-y: scroll;
+    /* padding: 4px 8px;
+    background-color: #056DFA; */
+}
+
+.KanBanHeader {
+    display: flex;
+    justify-content: left;
+    background-color: #4FAF53;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.KanBan>.card {
+    padding: 4px;
+    border-radius: 0;
+    margin-bottom: 8px;
+    height: auto;
+}
+
+.custName {
+    text-align: left;
+}
+
+.KanBanProb {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.kanBanCardBody {
+    padding: 8px 2px;
+    font-size: 14px;
+}
+
+.KanProbSpan {
+    background-color: #5D41DE;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 2px;
+}
+
+.KanBKASpan {
+    background-color: #056DFA;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 2px;
+}
+
+.KanFUDSpan {
+    background-color: #A649DA;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 2px;
+}
+
+.negotiationHead {
+    background-color: #4055B2;
+    color: white;
+}
+
+.proposalHead {
+    background-color: #FD9826;
+    color: white;
+}
+
+.demoHead {
+    background-color: #FFD452;
+    color: white;
+}
+
+.leadHead,
+.lead,
+.qualificationHead {
+    background-color: #E39801;
+    color: white;
+}
+
+.oppWonHead,
+.opportunity,
+.wonHead {
+    background-color: #6E0611;
+    color: white;
+}
