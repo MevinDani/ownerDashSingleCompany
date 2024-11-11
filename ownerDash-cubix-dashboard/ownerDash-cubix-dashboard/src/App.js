@@ -31,41 +31,41 @@ import NewMachineValidation from './Components/Home/NewMachineValidation';
 import PrivateRoute from './RouteGuard';
 import MyPickingList from './Components/newIntegration/pickingList/MyPickingList';
 import PickingListDetails from './Components/newIntegration/pickingListDetails/PickingListDetails';
-import SalesList from './crmApp/components/SalesList'
-import AdminHome from './taskManagerModule/components/AdminHome'
-import AdminTaskDetailView from './taskManagerModule/components/AdminTaskDetailView'
-import GeofencingSettings from './taskManagerModule/components/GeofencingSettings'
-import AdminCompletedTasks from './taskManagerModule/components/AdminCompletedTasks'
-import Home from './taskManagerModule/components/Home'
-import TaskDetailViewStaff from './taskManagerModule/components/TaskDetailViewStaff'
-import MyCompletedTask from './taskManagerModule/components/MyCompletedTask'
-import TaskLogin from './taskManagerModule/components/LoginPage'
-import ProtectedRoute from './taskManagerModule/components/ProtectedRoute';
-import HrLogin from './hrModule/Pages/LoginPage'
+// import SalesList from './crmApp/components/SalesList'
+// import AdminHome from './taskManagerModule/components/AdminHome'
+// import AdminTaskDetailView from './taskManagerModule/components/AdminTaskDetailView'
+// import GeofencingSettings from './taskManagerModule/components/GeofencingSettings'
+// import AdminCompletedTasks from './taskManagerModule/components/AdminCompletedTasks'
+// import Home from './taskManagerModule/components/Home'
+// import TaskDetailViewStaff from './taskManagerModule/components/TaskDetailViewStaff'
+// import MyCompletedTask from './taskManagerModule/components/MyCompletedTask'
+// import TaskLogin from './taskManagerModule/components/LoginPage'
+// import ProtectedRoute from './taskManagerModule/components/ProtectedRoute';
+// import HrLogin from './hrModule/Pages/LoginPage'
 
-import NewDashBoard from './hrModule/Pages/NewDashBoard';
-import HrHomePage from './hrModule/Pages/HomePage'
-import AttendancePage from './hrModule/Pages/AttendancePage'
+// import NewDashBoard from './hrModule/Pages/NewDashBoard';
+// import HrHomePage from './hrModule/Pages/HomePage'
+// import AttendancePage from './hrModule/Pages/AttendancePage'
 
 
-import EmployeeListPage from './hrModule/Pages/EmployeeListPage';
-import EmplRegistrationPage from './hrModule/Pages/EmplRegistrationPage';
-import LeaveManagementPage from './hrModule/Pages/LeaveManagementPage';
-import LeaveApprovalPage from './hrModule/Pages/LeaveApprovalPage';
-import LeaveRejoinPage from './hrModule/Pages/LeaveRejoinPage';
-import ViewEmpPage from './hrModule/Pages/ViewEmpPage';
-import EmployeeEditPage from './hrModule/Pages/EmployeeEditPage';
-import CreateAllowance from './hrModule/Components/Employee/CreateAllowance/CreateAllowance';
-import LeaveCatPage from './hrModule/Pages/LeaveCatPage';
-import LeaveAllotmentPage from './hrModule/Pages/LeaveAllotmentPage';
-import LeaveApplicationPage from './hrModule/Pages/LeaveApplicationPage';
-import AttendanceEvaluationPage from './hrModule/Pages/AttendanceEvaluationPage';
-import TimesheetPage from './hrModule/Pages/TimesheetPage';
-import PayrollManagementPage from './hrModule/Pages/PayrollManagementPage';
-import HolidayManagementPage from './hrModule/Pages/HolidayManagementPage';
-import LeavePage from './hrModule/Pages/LeavePage';
-import BigCalendar from './hrModule/Components/Ghant/BigCalendar/BigCalendar';
-import TaskGant from './hrModule/Components/Ghant/TaskGant/TaskGant';
+// import EmployeeListPage from './hrModule/Pages/EmployeeListPage';
+// import EmplRegistrationPage from './hrModule/Pages/EmplRegistrationPage';
+// import LeaveManagementPage from './hrModule/Pages/LeaveManagementPage';
+// import LeaveApprovalPage from './hrModule/Pages/LeaveApprovalPage';
+// import LeaveRejoinPage from './hrModule/Pages/LeaveRejoinPage';
+// import ViewEmpPage from './hrModule/Pages/ViewEmpPage';
+// import EmployeeEditPage from './hrModule/Pages/EmployeeEditPage';
+// import CreateAllowance from './hrModule/Components/Employee/CreateAllowance/CreateAllowance';
+// import LeaveCatPage from './hrModule/Pages/LeaveCatPage';
+// import LeaveAllotmentPage from './hrModule/Pages/LeaveAllotmentPage';
+// import LeaveApplicationPage from './hrModule/Pages/LeaveApplicationPage';
+// import AttendanceEvaluationPage from './hrModule/Pages/AttendanceEvaluationPage';
+// import TimesheetPage from './hrModule/Pages/TimesheetPage';
+// import PayrollManagementPage from './hrModule/Pages/PayrollManagementPage';
+// import HolidayManagementPage from './hrModule/Pages/HolidayManagementPage';
+// import LeavePage from './hrModule/Pages/LeavePage';
+// import BigCalendar from './hrModule/Components/Ghant/BigCalendar/BigCalendar';
+// import TaskGant from './hrModule/Components/Ghant/TaskGant/TaskGant';
 import SalesInvoice from './Components/SalesInvoice/SalesInvoice';
 
 
@@ -359,27 +359,27 @@ function App() {
       />
 
       {/* crmAppRoutes */}
-      <Route
+      {/* <Route
         path="admin/crmHome"
         element={
           <PrivateRoute >
             <SalesList />
           </PrivateRoute>
         }
-      />
+      /> */}
       {/* crmAppRoutes */}
 
       {/* taskManager */}
 
-      <Route
+      {/* <Route
         path="admin/taskManagerLogin"
         element={
           <TaskLogin />
-        } />
+        } /> */}
 
       {/* admin routes */}
 
-      <Route
+      {/* <Route
         path="admin/taskHome"
         element={
           <PrivateRoute>
@@ -407,11 +407,11 @@ function App() {
           <PrivateRoute>
             <AdminCompletedTasks />
           </PrivateRoute>
-        } />
+        } /> */}
 
       {/* staff routes */}
 
-      <Route
+      {/* <Route
         path="/home"
         element={
           <PrivateRoute>
@@ -432,13 +432,13 @@ function App() {
           <PrivateRoute>
             <MyCompletedTask />
           </PrivateRoute>
-        } />
+        } /> */}
 
       {/* taskManager */}
 
       {/* hrModule */}
 
-      <Route
+      {/* <Route
         path="admin/hrModuleHome"
         element={
           <PrivateRoute >
@@ -450,7 +450,7 @@ function App() {
         path="admin/hrModuleLogin"
         element={
           <HrLogin />
-        } />
+        } /> */}
 
       <Route
         path="salesInvoice"
@@ -557,7 +557,7 @@ function App() {
         <Route path="BusinessPartAdd" element={<BusinessPartAdd />} />
       </Route>
 
-      <Route path="hrModuleHome" element={<NewDashBoard />} >
+      {/* <Route path="hrModuleHome" element={<NewDashBoard />} >
         <Route path="home" element={<HrHomePage />} />
         <Route path="attendancePage" element={<AttendancePage />} />
         <Route path="leavePage" element={<LeavePage />} />
@@ -581,9 +581,8 @@ function App() {
         <Route path="payroll" element={<PayrollManagementPage />} />
         <Route path="holiday" element={<HolidayManagementPage />} />
         <Route path="bigCalendar" element={<BigCalendar />} />
-        {/* <Route path="bigCalendar" element={<TaskManagementGhant />} /> */}
         <Route path="taskGant" element={<TaskGant />} />
-      </Route>
+      </Route> */}
 
       {/* hrModule */}
 

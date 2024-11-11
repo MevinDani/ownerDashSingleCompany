@@ -1,1 +1,0 @@
-export const base_url="https://cubixweberp.com:156/api/"
